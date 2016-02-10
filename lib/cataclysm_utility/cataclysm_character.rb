@@ -35,6 +35,7 @@ class CataclysmCharacter
   def get_pos
     # we need to grab a variety of position data from our characters
     # there's no real organization to it in the json, loading manually
+    # could be done as a hash, would be a bit more error-proof
     pos_ary =  [@loaded_char_json["levx"],
             @loaded_char_json["levy"],
             @loaded_char_json["levz"],
@@ -48,7 +49,7 @@ class CataclysmCharacter
   
   def set_pos(position_array)
     # need to set the position data and again there's no organization in json
-    log_string = "Setting character position to: "
+    log_string = "Setting #{name}'s character position to: "
     position_array.each { |val| log_string += val.to_s + " " }
     log_string += " from: "
     get_pos.each { |val| log_string += val.to_s + " " }
@@ -65,6 +66,9 @@ class CataclysmCharacter
   
   def write_character_json(name=@name, world_string=@character_world)
     # save character under encoded filename in proper world
+    # character file format: # + the name encoded in base64 + .sav
+    # there's also always a '# version 25' first line...
+    # version number can change of course...
     # TODO: exception
     saving_encoded_name = "#" + Base64.encode64(name).chomp
     saving_filename = "save/#{world_string}/#{saving_encoded_name}.sav"
@@ -77,11 +81,14 @@ class CataclysmCharacter
   
   def remove_world_specific_json_information
     # clear some stuff in the player data that isn't in a new world
+    # otherwise they get debug errors on loading
     @loaded_char_json["active_monsters"] = []
     @loaded_char_json["player"]["active_mission"] = -1
     @loaded_char_json["player"]["active_missions"] = []
     @loaded_char_json["player"]["completed_missions"] = []
     @loaded_char_json["player"]["failed_missions"] = []
+    # also remove the files which deal with weather and monsters seen
+    # since all that will be different in the new world
     @list_of_related_char_files.delete("save/#{@character_world}/#{@encoded_name}.weather")
     @list_of_related_char_files.delete_if do |value|
       value.slice(".seen")
@@ -91,7 +98,6 @@ class CataclysmCharacter
   
   def save_me(new_name, target_world_name, new_position=nil)
     # TODO: exception
-    # also does this really need to be split from save feature?
     # scrub out anything that doesn't exist in a new world
     if @character_world != target_world_name
       remove_world_specific_json_information

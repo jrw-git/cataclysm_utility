@@ -17,16 +17,10 @@ CURRENT_VERSION = 1.0
 PROJECT_NAME = "CDDA Save Utility"
 AUTHOR = "John White"
 
-#test_mode = false || ARGV[0]
-#if test_mode == "test"
-  #Dir.chdir("../..")
-  #Dir.chdir("TestingCDDA4223")
-  #UI.display("*"*5+"Working in Test Mode - Won't find normal installation"+"*"*5)
-#end
-
+# log the startup time, the name, the path, and the version in case of troubleshooting
 UI.log("#{PROJECT_NAME} Version #{CURRENT_VERSION} starting up from: " + File.expand_path($0))
 
-begin  
+begin  # iterate until the user picks 'q' to quit.
   our_install = CataclysmManager.new()
   UI.print_intro
   current_action = UI.print_action_prompt

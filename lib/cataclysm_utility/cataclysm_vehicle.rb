@@ -28,6 +28,7 @@ class CataclysmVehicle
   end
   
   def get_pos
+    # grab positional data from the vehicle (not including orientation etc)
     array_of_positions = Array.new
     array_of_positions << @vehicle_hash["posx"]
     array_of_positions << @vehicle_hash["posy"]
@@ -35,11 +36,13 @@ class CataclysmVehicle
   end
   
   def set_pos(array_of_positions)
+    # set the same positional data
     @vehicle_hash["posx"] = array_of_positions[0]
     @vehicle_hash["posy"] = array_of_positions[1]
   end
   
   def name
+    # convenient access to the name of the vehicle
     return @vehicle_hash["name"]
   end
 
