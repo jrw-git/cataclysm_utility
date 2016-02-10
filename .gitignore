@@ -2,6 +2,9 @@
 Thumbs.db
 ehthumbs.db
 
+# log for the utility
+cdda_utility_log.txt
+
 # Folder config file
 Desktop.ini
 
