@@ -43,8 +43,7 @@ class CataclysmWorld
   def grab_vehicle(search_string)
     # searches every map file in the world for a string occurance of the name
     # can be tricked by common things found in the map, thus the demand for a unique name
-    # builds an array right now but only returns the first result.
-    # TODO: handle multiple results by letting the user choose
+    # builds an array of results but kicks up a fuss if anything but one result is found
     array_of_results = Array.new
     self.each_vehicle do |vehicle, filename|
       if vehicle["name"] == search_string
@@ -54,7 +53,12 @@ class CataclysmWorld
     end
     unless array_of_results.size > 0
       UI.display("Vehicle not found. Try again.")
-      # returning nil flags that we didn't find anything
+      # returning nil flags that we should keep trying
+      return nil
+    end
+    if array_of_results.size > 1
+      UI.display("Too many vehicles by that name found. Try again.")
+      # returning nil flags that we should keep trying
       return nil
     end
     return array_of_results[0]

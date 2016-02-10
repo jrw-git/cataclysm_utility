@@ -19,10 +19,11 @@ AUTHOR = "John White"
 
 # log the startup time, the name, the path, and the version in case of troubleshooting
 UI.log("#{PROJECT_NAME} Version #{CURRENT_VERSION} starting up from: " + File.expand_path($0))
-
+UI.print_intro
 begin  # iterate until the user picks 'q' to quit.
+  puts
+  # every time we loop, re-create the manager, which forces us to re-scan save dir for changes
   our_install = CataclysmManager.new()
-  UI.print_intro
   current_action = UI.print_action_prompt
   our_install.do_action(current_action)
 end until current_action == 'q'
