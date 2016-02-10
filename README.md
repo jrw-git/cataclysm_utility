@@ -1,6 +1,7 @@
 # cataclysm_utility
 
-####Written by John White 2016 john@johnrw.com
+####Written by John White 2016 
+#####john@johnrw.com
 
 ###Ruby Save Utility for Cataclysm: Dark Days Ahead (CDDA)
 
@@ -18,7 +19,7 @@ Walk outside and use the construction menu to start building a vehicle. Name it 
 such as "MyTarget". Then step back, save the game, and run the utility, choosing to transfer your own
 character and vehicle. Make sure your own vehicle is named something unique such as "SuperRV", first.
 
-This utility does the following things:
+#####This utility does the following things:
 
 1) Copy vehicles between Cataclysm worlds, contents intact
 
@@ -34,16 +35,25 @@ This utility does the following things:
 
 7) List all vehicles in a world
 
-This utility DOES NOT: copy between different versions of Cataclysm
+######This utility DOES NOT copy between different versions of Cataclysm
+
+Do that on your own by installing the new version and dragging the "save" folder over,
+or using the new updater that's been released (not by me)
+
+https://github.com/remyroy/CDDA-Game-Launcher/releases
 
 
-###INSTALLATION:
+###INSTALLATION (WINDOWS):
 
 Download the repository zip:
 https://github.com/jrw-git/cataclysm_utility/archive/master.zip
 
 Unzip into your Cataclysm directory and run cataclysm_utility.exe, then follow the directions.
 
+Non-Windows users, currently it's best if you install Ruby, then
+unzip as above into the Cataclysm directory, then run 
+"ruby .\lib\cataclysm_utility.rb" in the Cataclysm directory.
+Let me know how it works
 
 ###USAGE NOTES:
 
