@@ -40,6 +40,8 @@ class CataclysmManager
       UI.display("Couldn't find a save directory, a few things could be wrong.", true)
       UI.display("Are we inside the Cataclysm:DDA folder? Was it just installed and never run?", true)
       UI.display("Our current directory is #{Dir.pwd}", true)
+      UI.display("Exiting in 5 seconds...", false)
+      sleep(5)
       exit(1)
     end
     # scan all worlds and characters in the game directory
@@ -75,7 +77,8 @@ class CataclysmManager
     # need unique names and worlds for the vehicle search to succeed
     UI.display("Copying a vehicle between worlds.")
     UI.print_vehicle_directions
-    source_vehicle = UI.pick_a_world(self).grab_vehicle(UI.get_vehicle_input("Source"))
+    # keep looking for a vehicle until the user puts in a name that matches with one
+    source_vehicle = UI.pick_a_world(self).grab_vehicle(UI.get_vehicle_input("Source")) while source_vehicle == nil
     UI.pick_a_world(self).replace_vehicle(UI.get_vehicle_input("Destination"), source_vehicle)
   end
   
@@ -84,7 +87,8 @@ class CataclysmManager
     # extracts the vehicle hash from the map file
     Dir.mkdir("./saved_vehicles") unless Dir.exist?("./saved_vehicles")
     UI.display("Saving vehicle to a JSON file (.json), in ./saved_vehicles")
-    source_vehicle = UI.pick_a_world(self).grab_vehicle(UI.get_vehicle_input("Source"))
+    # keep looking for a vehicle until the user puts in a name that matches with one
+    source_vehicle = UI.pick_a_world(self).grab_vehicle(UI.get_vehicle_input("Source")) while source_vehicle == nil
     source_vehicle.save_to_file("./saved_vehicles/" + UI.get_input("Enter a name for the saved vehicle:"))
   end
   

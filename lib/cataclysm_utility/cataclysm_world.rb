@@ -53,9 +53,9 @@ class CataclysmWorld
       end
     end
     unless array_of_results.size > 0
-      UI.display("Vehicle not found. Exiting.")
-      # TODO: handle this case better
-      exit(1)
+      UI.display("Vehicle not found. Try again.")
+      # returning nil flags that we didn't find anything
+      return nil
     end
     return array_of_results[0]
   end
