@@ -12,10 +12,11 @@ It's quite difficult to transfer this data by hand.
 ######However, there are a few steps you need to do by hand: 
 
 To copy a character, there must first be an existing character in the world you wish to copy to.
-This gives us a safe location for your character to arrive at.
+This gives us a safe location for your character to arrive at. The existing character is not overwritten.
 
 To copy a vehicle, give it a unique name (within the world) such as "SuperRV". In the destination
-world, find or create a vehicle and give it a unique name as well such as "MyTarget".
+world, find or create a vehicle and give it a unique name as well such as "MyTarget". 
+######This vehicle IS OVERWRITTEN.
 
 #####This is a text based tool. There is no graphical interface.
 
