@@ -1,14 +1,13 @@
 # cataclysm_utility
 
-####Written by John White 2016 
-#####john@johnrw.com
-
 ###Ruby Vehicle + Character Transfer Utility for Cataclysm: Dark Days Ahead (CDDA)
 
 Cataclysm: Dark Days Ahead has no built-in ability to copy characters, worlds, or vehicles. 
 Most commonly, we want to move an existing character and the vehicle they've built into a new world.
 This lets us explore a brand new world with an existing character and all the stuff they've accumulated.
-It's quite difficult to transfer this data by hand. This utility makes it easier. 
+It's quite difficult to transfer this data by hand. 
+
+#####This utility makes it easier. 
 
 ######However, there are a few steps you need to do by hand: 
 
@@ -18,7 +17,7 @@ This gives us a safe location for your character to arrive at.
 To copy a vehicle, give it a unique name (within the world) such as "SuperRV". In the destination
 world, find or create a vehicle and give it a unique name as well such as "MyTarget".
 
-This is a text based tool. There is no graphical interface.
+#####This is a text based tool. There is no graphical interface.
 
 ###INSTALLATION (WINDOWS):
 
@@ -61,3 +60,5 @@ https://github.com/CleverRaven/Cataclysm-DDA
 
 https://github.com/jrw-git
 
+####Written by John White 2016 
+#####john@johnrw.com
