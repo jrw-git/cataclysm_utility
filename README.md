@@ -40,31 +40,13 @@ Walk outside and use the construction menu to start building a vehicle. Name it 
 such as "MyTarget". Then step back, save the game, and run the utility, choosing to transfer your own
 character and vehicle. Make sure your own vehicle is named something unique such as "SuperRV", first.
 
-
-
 ######This utility DOES NOT copy between different versions of Cataclysm
 
 Do that on your own by installing the new version and dragging the "save" folder over,
 or using the new updater that's been released (not by me):
  https://github.com/remyroy/CDDA-Game-Launcher/releases
 
-
-###USAGE NOTES:
-
-#####To copy vehicles: 
-
-You MUST manually create/find a vehicle in the NEW world.
-It MUST be named a UNIQUE name (within the world) such as "MyTarget"
-Your source vehicle must also have a unique name.
-
-#####To copy characters:
-
-Create a new character in the new world FIRST.
-It will mark a safe place in the new world for the transfer.
-
-
-###GAME NOTES:
-
+ 
 #####Game Website:
 
 http://en.cataclysmdda.com/
