@@ -1,21 +1,22 @@
-# cataclysm_utility
+##Transfer Utility for Cataclysm: Dark Days Ahead (CDDA)
+### Written in Ruby, designed to copy/save vehicles and characters between worlds
 
-###Ruby Vehicle + Character Transfer Utility for Cataclysm: Dark Days Ahead (CDDA)
-
-Cataclysm: Dark Days Ahead has no built-in ability to copy characters, worlds, or vehicles. 
+Cataclysm: Dark Days Ahead has no built-in ability to copy characters, worlds, or vehicles.
 Most commonly, we want to move an existing character and the vehicle they've built into a new world.
 This lets us explore a brand new world with an existing character and all the stuff they've accumulated.
-It's quite difficult to transfer this data manually. 
+It's quite difficult to transfer this data manually.
 
-#####This utility makes it easier. 
+#####This utility makes it easier.
 
-######However, there are a few steps you need to do beforehand: 
+######However, there are a few steps you need to do beforehand:
+
+##### First: BACK UP ANY WORLD (through this utility) BEFORE MAKING CHANGES
 
 To copy a character, there must first be an existing character in the world you wish to copy to.
 This gives us a safe location for your character to arrive at. The existing character is not overwritten.
 
 To copy a vehicle, give it a unique name (within the world) such as "SuperRV". In the destination
-world, find or create a vehicle and give it a unique name as well such as "MyTarget". 
+world, find or create a vehicle and give it a unique name as well such as "MyTarget".
 This vehicle IS OVERWRITTEN.
 
 ######This is a text based tool. There is no graphical interface.
@@ -25,10 +26,15 @@ This vehicle IS OVERWRITTEN.
 Download the repository zip:
 https://github.com/jrw-git/cataclysm_utility/archive/master.zip
 
-Unzip into your Cataclysm directory and run cataclysm_utility.exe, then follow the directions.
+You can unzip it directly into your Cataclysm directory. (eg /cdda)
+
+You can also unzip it into a directory next to the Cataclysm install.
+This is most useful for use with the game launcher.
+
+Example: Launcher is installed in /cdda, game is in /cdda/cataclysm, this utility can be in /cdda/transfer_utility
 
 Non-Windows users, it's best if you install Ruby, then
-unzip as above into the Cataclysm directory, then run 
+unzip as above, then run
 "ruby .\lib\cataclysm_utility.rb" in the Cataclysm directory.
 
 ####General Usage:
@@ -46,7 +52,27 @@ Do that on your own by installing the new version and dragging the "save" folder
 or using the new updater that's been released (not by me):
  https://github.com/remyroy/CDDA-Game-Launcher/releases
 
- 
+
+##### Version History:
+
+######Version 1.1:
+
+Can run the utility from inside CDDA directory or next to it now,
+for increased compatibility with the cataclysm game launcher
+
+Mod-lists are now checked when copying vehicles.
+
+Mods associated with vehicles are saved when vehicles are saved to json
+
+Vehicles loaded from JSON have their mod-list checked against the new world's.
+
+Increased documentation, warnings, and directions.
+
+######Version 1.0:
+
+Initial release
+
+
 #####Game Website:
 
 http://en.cataclysmdda.com/
@@ -61,5 +87,6 @@ https://github.com/CleverRaven/Cataclysm-DDA
 
 https://github.com/jrw-git
 
-####Written by John White 2016 
+
+####Written by John White 2016
 #####john@johnrw.com

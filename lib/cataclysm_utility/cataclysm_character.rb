@@ -1,12 +1,12 @@
 
 class CataclysmCharacter
-  
+
   attr_reader :name, :character_path, :character_world, :list_of_related_char_files
-  
+
   def initialize(path_to_char_file)
     load_character_from_file(path_to_char_file)
   end
-  
+
   def load_character_from_file(path_to_char_file)
     # extract the name, decode it
     # TODO: exception
@@ -31,7 +31,7 @@ class CataclysmCharacter
     @list_of_related_char_files = Dir.glob("save/#{@character_world}/#{@encoded_name}.*")
     @list_of_related_char_files.delete("save/#{@character_world}/#{@encoded_name}.sav")
   end
-  
+
   def get_pos
     # we need to grab a variety of position data from our characters
     # there's no real organization to it in the json, loading manually
@@ -41,12 +41,12 @@ class CataclysmCharacter
             @loaded_char_json["levz"],
             @loaded_char_json["om_x"],
             @loaded_char_json["om_y"],
-            @loaded_char_json["player"]["posx"], 
+            @loaded_char_json["player"]["posx"],
             @loaded_char_json["player"]["posy"],
             @loaded_char_json["player"]["posz"]]
     return pos_ary
   end
-  
+
   def set_pos(position_array)
     # need to set the position data and again there's no organization in json
     log_string = "Setting #{name}'s character position to: "
@@ -63,7 +63,7 @@ class CataclysmCharacter
     @loaded_char_json["player"]["posy"] = position_array[6]
     @loaded_char_json["player"]["posz"] = position_array[7]
   end
-  
+
   def write_character_json(name=@name, world_string=@character_world)
     # save character under encoded filename in proper world
     # character file format: # + the name encoded in base64 + .sav
@@ -78,7 +78,7 @@ class CataclysmCharacter
     saving_file.close
     UI.display("Saved Character: '#{name}' In: '#{world_string}' Filename: '#{saving_filename}'", true)
   end
-  
+
   def remove_world_specific_json_information
     # clear some stuff in the player data that isn't in a new world
     # otherwise they get debug errors on loading
@@ -92,10 +92,10 @@ class CataclysmCharacter
     @list_of_related_char_files.delete("save/#{@character_world}/#{@encoded_name}.weather")
     @list_of_related_char_files.delete_if do |value|
       value.slice(".seen")
-    end 
+    end
     UI.display("Removed world-specific info in #{@name}character file.", true)
   end
-  
+
   def save_me(new_name, target_world_name, new_position=nil)
     # TODO: exception
     # scrub out anything that doesn't exist in a new world

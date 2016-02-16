@@ -1,18 +1,29 @@
 
 class CataclysmWorld
-  
+
   attr_reader :name
 
   def initialize(world_name)
     @name = world_name
     @character_tracker = find_characters()
   end
-  
+
   def [](name)
     # array-style access to the characters found based on character name
     return @character_tracker[name]
   end
-  
+
+  def get_mods
+    if File.exist?("./save/#{@name}/mods.json")
+      mod_file = File.open("save/#{@name}/mods.json", 'r')
+      mod_list = JSON.load(mod_file)
+      mod_file.close
+    else
+      mod_list = "none"
+    end
+    return mod_list
+  end
+
   def each_character
     # iterator for characters, yields a simple name and the character instance itself
     @character_tracker.each do |name, char_object|
@@ -20,7 +31,7 @@ class CataclysmWorld
     end
     return self
   end
-  
+
   def each_vehicle
     # iterator for vehicles, yields the vehicle, the file name, and debug data
     # the sub_array is for multiple vehicles close together
@@ -39,7 +50,7 @@ class CataclysmWorld
       end
     end
   end
-  
+
   def grab_vehicle(search_string)
     # searches every map file in the world for a string occurance of the name
     # can be tricked by common things found in the map, thus the demand for a unique name
@@ -63,11 +74,12 @@ class CataclysmWorld
     end
     return array_of_results[0]
   end
-  
+
   def replace_vehicle(search_string, source_vehicle)
     # replace found vehicle with our source vehicle
     # tricky because we need to load the map file into json, then edit it, then save it out
     # TODO, mesh better with vehicle iterator?
+    success = false
     self.each_vehicle do |vehicle, filename, v_index, map_index|
       # find the map file
       if vehicle["name"] == search_string
@@ -77,20 +89,26 @@ class CataclysmWorld
         map_json = JSON.load(opened_map_file)
         # grab + set positional data
         target_pos = [vehicle["pos_x"],vehicle["pos_y"]]
-        source_vehicle.set_pos(target_pos)
+        #source_vehicle.set_pos(target_pos)
         # replace vehicle
         map_json[map_index]["vehicles"][v_index] = source_vehicle.to_h
         # save data out in entirety
         opened_map_file.rewind
         opened_map_file.write(JSON.generate(map_json))
         opened_map_file.close
+        success = true
         UI.display("Vehicle replaced. Source: #{source_vehicle.name}. Target: #{search_string}", true)
       end
+    end
+    if success
+      puts "Vehicle replacement successful."
+    else
+      puts "Failed to find a vehicle by that name, try again..."
     end
   end
 
   def find_characters()
-    # character file name is character name in base64 encoding plus ".sav" 
+    # character file name is character name in base64 encoding plus ".sav"
     list_of_character_saves = Dir.glob("save/#{@name}/*.sav")
     character_tracker = Hash.new
     list_of_character_saves.each do |filename|
@@ -105,12 +123,12 @@ class CataclysmWorld
     FileUtils.remove_dir("save/#{@name}")
     UI.display("Done deleting world #{@name}", true)
   end
-  
+
   def save_me(new_name)
     # TODO: Exception
     UI.display("Copying world from #{@name} to #{new_name}, may take a while.", true)
     FileUtils.copy_entry("save/#{@name}", "save/#{new_name}")
     UI.display("Done copying world to #{new_name}", true)
   end
-  
+
 end
