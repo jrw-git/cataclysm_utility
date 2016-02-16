@@ -34,8 +34,9 @@ class CataclysmManager
     unless Dir.exist?("save")
       # check if we're in the CDDA directory
       # search a level up in directory structure
-      directories_next_to_ours = Dir.glob("../*/*")
-      directories_next_to_ours.each do |name|
+      directories_near_to_ours = Dir.glob("../*/*")
+      directories_near_to_ours += Dir.glob("./*/*")
+      directories_near_to_ours.each do |name|
         split_name_array = name.split("/")
         # is the directory "save" at the end?
         if split_name_array[-1] == "save"
@@ -48,14 +49,16 @@ class CataclysmManager
         end
       end
     end
-    savegame_list = Dir.entries("save")
-    # delete all non-savegame directories from our list of saves
-    savegame_list.delete(".")
-    savegame_list.delete("..")
-    if savegame_list.size == 0
+    # now that we've changed to the supposed cdda directory, check if there's a save dir again
+    if Dir.exist?("save")
+      savegame_list = Dir.entries("save")
+      # delete all non-savegame directories from our list of saves
+      savegame_list.delete(".")
+      savegame_list.delete("..")
+    else
       UI.display("Couldn't find a save directory, a few things could be wrong.", true)
       UI.display("The program could be bugged, or you could be running it from the wrong location", true)
-      UI.display("Try running it inside the Catalcysm directory, or in a directory next to it.", true)
+      UI.display("Try running it inside the Catalcysm directory, or in a directory next to it or above it.", true)
       UI.display("Also, you might have installed Cataclysm but never actually run the program.", true)
       UI.display("Our current directory is #{Dir.pwd}", true)
       UI.display("Exiting in 5 seconds...", true)

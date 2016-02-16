@@ -26,16 +26,23 @@ This vehicle IS OVERWRITTEN.
 Download the repository zip:
 https://github.com/jrw-git/cataclysm_utility/archive/master.zip
 
-You can unzip it directly into your Cataclysm directory. (eg /cdda)
+You can unzip it directly into your Cataclysm directory
+or above the Cataclysm directory.
 
 You can also unzip it into a directory next to the Cataclysm install.
 This is most useful for use with the game launcher.
 
-Example: Launcher is installed in /cdda, game is in /cdda/cataclysm, this utility can be in /cdda/transfer_utility
+Example: Launcher is installed in /cdda, game is in /cdda/cataclysm
+
+This utility can be in /cdda/transfer_utility
+
+It can also be in /cdda
+
+Or in /cdda/cataclysm
 
 Non-Windows users, it's best if you install Ruby, then
 unzip as above, then run
-"ruby .\lib\cataclysm_utility.rb" in the Cataclysm directory.
+"ruby .\lib\cataclysm_utility.rb"
 
 ####General Usage:
 Most users should first create a new Cataclysm world (within the game). Then load the game up and create
@@ -57,8 +64,11 @@ or using the new updater that's been released (not by me):
 
 ######Version 1.1:
 
+When replacing vehicles, the utility prints a list of unique names found, for
+your reference.
+
 Can run the utility from inside CDDA directory or next to it now,
-for increased compatibility with the cataclysm game launcher
+for increased compatibility with the cataclysm game launcher.
 
 Mod-lists are now checked when copying vehicles.
 
