@@ -62,6 +62,14 @@ or using the new updater that's been released (not by me):
 
 ##### Version History:
 
+###### Version 1.1.1
+
+Updated version numbers to SVN format
+
+Re-implemented unit tests (old ruby style)
+
+Included test data in master branch for unit tests
+
 ######Version 1.1:
 
 When replacing vehicles, the utility prints a list of unique names found, for
