@@ -1,4 +1,4 @@
-require "./lib/cataclysm_utility/cataclysm_manager.rb"
+require_relative "../lib/cataclysm_manager"
 require "test/unit"
 
 class TestCataclysmManager < Test::Unit::TestCase

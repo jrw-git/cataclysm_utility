@@ -1,5 +1,4 @@
-require "./lib/cataclysm_utility/ui.rb"
-require "./lib/cataclysm_utility/cataclysm_manager"
+require_relative "../lib/cataclysm_manager"
 require "test/unit"
 
 class TestUI < Test::Unit::TestCase

@@ -1,4 +1,4 @@
-require "./lib/cataclysm_utility/cataclysm_manager"
+require_relative "lib/cataclysm_manager"
 
 # 'Cataclysm: Dark Days Ahead' (CDDA) Save Utility Notes
 
@@ -13,8 +13,8 @@ require "./lib/cataclysm_utility/cataclysm_manager"
 # Vehicles are buried in .map files under the world save
 # Data structure of almost all CDDA files is json format
 
-CURRENT_VERSION = 1.1
-PATCH_VERSION = 1
+CURRENT_VERSION = 1.2
+PATCH_VERSION = 0
 PROJECT_NAME = "CDDA Save Utility"
 AUTHOR = "John White"
 @original_directory = Dir.pwd

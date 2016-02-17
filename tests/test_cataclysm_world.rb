@@ -1,12 +1,5 @@
-#require "./lib/cataclysm_utility/cataclysm_world.rb"
-#require "./lib/cataclysm_utility/cataclysm_character.rb"
-#require "./lib/cataclysm_utility/cataclysm_vehicle.rb"
-#require "./lib/cataclysm_utility/ui.rb"
-require "./lib/cataclysm_utility/cataclysm_manager"
+require_relative "../lib/cataclysm_manager"
 require "test/unit"
-#require "FileUtils"
-#require "json"
-#require "base64"
 
 class TestCataclysmWorld < Test::Unit::TestCase
 

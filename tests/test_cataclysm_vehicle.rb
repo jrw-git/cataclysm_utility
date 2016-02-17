@@ -1,8 +1,5 @@
-require "./lib/cataclysm_utility/cataclysm_vehicle.rb"
-require "./lib/cataclysm_utility/cataclysm_manager"
-#require "./lib/cataclysm_utility/ui.rb"
+require_relative "../lib/cataclysm_manager"
 require "test/unit"
-#require "json"
 
 class TestCataclysmVehicle < Test::Unit::TestCase
 

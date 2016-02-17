@@ -1,10 +1,5 @@
-require "./lib/cataclysm_utility/cataclysm_character.rb"
-require "./lib/cataclysm_utility/cataclysm_manager"
+require_relative "../lib/cataclysm_manager"
 require "test/unit"
-#require "json"
-#require "base64"
-#require "FileUtils"
-#require "./lib/cataclysm_utility/ui.rb"
 
 class TestCataclysmCharacter < Test::Unit::TestCase
 

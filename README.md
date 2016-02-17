@@ -23,8 +23,8 @@ This vehicle IS OVERWRITTEN.
 
 ###INSTALLATION (WINDOWS):
 
-Download the repository zip:
-https://github.com/jrw-git/cataclysm_utility/archive/master.zip
+Download the executable
+https://github.com/jrw-git/cataclysm_utility/blob/master/cataclysm_utility.exe
 
 For easiest use, unzip it directly into your Cataclysm directory
 and run "cataclysm_utility.exe"
@@ -40,9 +40,9 @@ It can also be in /cdda, or in /cdda/cataclysm.
 
 Any saved vehicles are saved in a sub-directory of the one the utility is run in.
 
-Non-Windows users, it's best if you install Ruby, then
-unzip as above, then run
-"ruby .\lib\cataclysm_utility.rb"
+Non-Windows users: It's best if you install Ruby
+then download https://github.com/jrw-git/cataclysm_utility/archive/master.zip
+and unzip as above, then "ruby cataclysm_utility.rb"
 
 ####General Usage:
 Most users should first create a new Cataclysm world (within the game). Then load the game up and create
@@ -61,6 +61,12 @@ or using the new updater that's been released (not by me):
 
 
 ##### Version History:
+
+###### Version 1.2.0 (2016-02-17)
+
+cataclysm_utility executable is now STANDALONE, no other files required.
+
+Major change in source code file arrangement to better mesh with OCRA compiler.
 
 ###### Version 1.1.1
 

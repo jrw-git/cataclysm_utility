@@ -1,5 +1,3 @@
-#$LOAD_PATH.unshift File.expand_path(File.join(File.dirname(__FILE__), 'lib'))
-#$LOAD_PATH.unshift File.expand_path(File.join(File.dirname(__FILE__), 'cataclysm_utility'))
 require "base64"
 require "json"
 require "fileutils"
