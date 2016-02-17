@@ -80,10 +80,10 @@ class CataclysmWorld
     # tricky because we need to load the map file into json, then edit it, then save it out
     # TODO, mesh better with vehicle iterator?
     success = false
-    self.each_vehicle do |vehicle, filename, v_index, map_index|
+    self.each_vehicle do |vehicle, filename, sub_index, map_index|
       # find the map file
       if vehicle["name"] == search_string
-        UI.display("Vehicle replacement found, name: #{search_string} in file #{filename}", true)
+        UI.display("Vehicle replacement found, name: #{search_string} in file #{filename}, SI:#{sub_index} MI:#{map_index}", true)
         # load in the map file (r+ lets us write to it later (we rewind it))
         opened_map_file = File.open(filename, 'r+')
         map_json = JSON.load(opened_map_file)
@@ -91,7 +91,7 @@ class CataclysmWorld
         target_pos = [vehicle["pos_x"],vehicle["pos_y"]]
         source_vehicle.set_pos(target_pos)
         # replace vehicle
-        map_json[map_index]["vehicles"][v_index] = source_vehicle.to_h
+        map_json[map_index]["vehicles"][sub_index] = source_vehicle.to_h
         # save data out in entirety
         opened_map_file.rewind
         opened_map_file.write(JSON.generate(map_json))

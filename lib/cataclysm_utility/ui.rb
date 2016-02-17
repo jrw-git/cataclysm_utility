@@ -43,8 +43,8 @@ class UI
 
   def self.print_vehicle_names(world)
     display("Vehicles in world #{world.name}")
-    world.each_vehicle do |vehicle_in_map, filename, sub_array|
-      display("Name '#{vehicle_in_map["name"]}'  File '#{filename}'  SA:#{sub_array}")
+    world.each_vehicle do |vehicle_in_map, filename, sub_array, map_index|
+      display("Name '#{vehicle_in_map["name"]}'  File '#{filename}'  SA:#{sub_array} MI:#{map_index}")
     end
   end
 

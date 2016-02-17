@@ -13,12 +13,13 @@ require "./lib/cataclysm_utility/cataclysm_manager"
 # Vehicles are buried in .map files under the world save
 # Data structure of almost all CDDA files is json format
 
-CURRENT_VERSION = 1.1.1
+CURRENT_VERSION = 1.1
+PATCH_VERSION = 1
 PROJECT_NAME = "CDDA Save Utility"
 AUTHOR = "John White"
 @original_directory = Dir.pwd
 # log the startup time, the name, the path, and the version in case of troubleshooting
-UI.log("#{PROJECT_NAME} Version #{CURRENT_VERSION} starting up from: " + File.expand_path($0))
+UI.log("#{PROJECT_NAME} Version #{CURRENT_VERSION}.#{PATCH_VERSION} starting up from: " + File.expand_path($0))
 #UI.print_intro
 begin  # iterate until the user picks 'q' to quit.
   puts
