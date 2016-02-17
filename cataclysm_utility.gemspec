@@ -13,8 +13,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/jrw-git"
   spec.license       = "MIT"
 
-  spec.files         = ['lib/cataclysm_utility.rb']
-  spec.executables   = ['bin/cataclysm_utility']
+  spec.files         = ['cataclysm_utility.rb']
+  spec.executables   = ['cataclysm_utility.exe']
   spec.test_files    = ['tests/test_cataclysm_utility.rb']
   spec.require_paths = ["lib"]
 end
