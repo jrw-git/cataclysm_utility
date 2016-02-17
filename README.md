@@ -1,7 +1,7 @@
 ##Transfer Utility for Cataclysm: Dark Days Ahead (CDDA)
 ####Written in Ruby, copy and save vehicles/characters between worlds
 
-######Latest Version: https://github.com/jrw-git/cataclysm_utility/releases/tag/1.2.0
+######Latest Version: https://github.com/jrw-git/cataclysm_utility/releases/latest
 
 Cataclysm: Dark Days Ahead has no built-in ability to copy characters, worlds, or vehicles.
 Most commonly, we want to move an existing character and the vehicle they've built into a new world.
@@ -26,7 +26,7 @@ This vehicle IS OVERWRITTEN.
 ###INSTALLATION (WINDOWS):
 
 Download the latest release:
-https://github.com/jrw-git/cataclysm_utility/releases/tag/1.2.0
+https://github.com/jrw-git/cataclysm_utility/releases/latest
 
 For easiest use, unzip it directly into your Cataclysm directory
 and run "cataclysm_utility.exe"
@@ -43,7 +43,7 @@ It can also be in /cdda, or in /cdda/cataclysm.
 Any saved vehicles are saved in a sub-directory of the one the utility is run in.
 
 Non-Windows users: It's best if you install Ruby
-then download https://github.com/jrw-git/cataclysm_utility/releases/tag/1.2.0
+then download https://github.com/jrw-git/cataclysm_utility/releases/latest
 and unzip as above, then "ruby cataclysm_utility.rb"
 
 ####General Usage:
