@@ -1,0 +1,6068 @@
+# version 25
+{
+    "turn" : 1115798,
+    "calendar_start" : 4800,
+    "initial_season" : 0,
+    "eternal_season" : false,
+    "last_target" : -1,
+    "run_mode" : 1,
+    "mostseen" : 0,
+    "nextspawn" : 1115699,
+    "levx" : 247,
+    "levy" : 80,
+    "levz" : 0,
+    "om_x" : 0,
+    "om_y" : 0,
+    "grscent" : "0 8636 1 2 2 4 1 1 0 123 2 1 4 1 6 1 8 1 9 1 10 1 11 2 9 1 6 1 0 121 3 1 7 1 11 1 14 1 18 1 21 1 25 1 27 1 28 1 26 1 21 1 0 1 3 1 5 1 3 1 0 116 2 1 8 1 14 1 20 1 24 1 29 1 36 1 43 1 48 1 50 1 49 1 44 1 0 1 25 2 15 1 5 1 0 115 3 1 11 1 21 1 31 1 36 1 57 1 53 1 61 1 67 1 71 2 65 1 38 1 67 1 63 1 47 1 22 1 6 1 0 114 7 1 14 1 40 1 42 1 49 1 84 1 66 1 72 1 77 1 81 1 80 1 75 1 0 1 90 1 96 1 123 1 88 1 56 1 0 113 3 1 10 1 28 1 52 1 48 1 56 1 62 1 106 1 71 1 74 1 75 1 74 1 68 1 67 1 79 1 92 1 133 1 138 1 59 1 0 113 3 1 12 1 20 1 35 1 78 1 89 1 90 1 59 1 66 1 58 2 55 1 53 1 46 1 48 1 55 1 97 1 77 1 53 1 0 113 5 1 12 1 21 1 47 1 40 1 46 1 49 1 45 1 46 1 36 2 33 1 29 1 0 1 16 2 17 1 9 1 3 1 0 113 4 1 10 1 17 1 26 1 33 1 55 1 39 1 36 1 28 1 21 1 18 1 15 1 10 1 0 119 2 1 7 1 13 1 19 1 23 1 26 2 24 1 17 1 11 1 7 1 4 1 2 1 0 120 3 1 8 1 12 1 15 1 17 2 13 1 8 1 3 1 2 1 0 122 1 1 3 1 5 1 7 1 9 1 8 1 6 1 3 1 1 1 0 125 1 1 2 2 0 1 1 1 0 7069",
+    "active_monsters" : [
+        {
+            "moves" : -160,
+            "pain" : 0,
+            "effects" : {
+                
+            },
+            "values" : {
+                
+            },
+            "blocks_left" : 1,
+            "dodges_left" : 1,
+            "num_blocks_bonus" : 0,
+            "num_dodges_bonus" : 0,
+            "armor_bash_bonus" : 0,
+            "armor_cut_bonus" : 0,
+            "speed" : 20,
+            "speed_bonus" : 0,
+            "dodge_bonus" : 0,
+            "block_bonus" : 0,
+            "hit_bonus" : 0,
+            "bash_bonus" : 0,
+            "cut_bonus" : 0,
+            "bash_mult" : 1.000000e+000,
+            "cut_mult" : 1.000000e+000,
+            "melee_quiet" : false,
+            "grab_resist" : 0,
+            "throw_resist" : 0,
+            "typeid" : "mon_spider_jumping",
+            "unique_name" : "",
+            "posx" : 62,
+            "posy" : 18,
+            "posz" : 0,
+            "wandx" : 0,
+            "wandy" : 0,
+            "wandz" : 0,
+            "wandf" : 0,
+            "hp" : 1,
+            "special_attacks" : {
+                
+            },
+            "friendly" : 0,
+            "faction" : "vermin",
+            "mission_id" : -1,
+            "no_extra_death_drops" : false,
+            "dead" : false,
+            "anger" : -99,
+            "morale" : 0,
+            "hallucination" : false,
+            "stairscount" : 29225228,
+            "destination" : [
+                0,
+                0,
+                0
+            ],
+            "ammo" : {
+                
+            },
+            "underwater" : false,
+            "upgrades" : false,
+            "upgrade_time" : -1,
+            "last_updated" : 1114657,
+            "inv" : [
+                
+            ]
+        }
+    ],
+    "stair_monsters" : [
+        
+    ],
+    "kills" : {
+        "mon_ant" : 26,
+        "mon_ant_soldier" : 5,
+        "mon_beaver" : 5,
+        "mon_bee" : 3,
+        "mon_blob" : 7,
+        "mon_blob_small" : 41,
+        "mon_boomer" : 6,
+        "mon_cougar" : 1,
+        "mon_coyote" : 4,
+        "mon_coyote_wolf" : 2,
+        "mon_dog" : 3,
+        "mon_dog_zombie_cop" : 1,
+        "mon_dog_zombie_rot" : 1,
+        "mon_dragonfly" : 1,
+        "mon_flaming_eye" : 1,
+        "mon_fly" : 2,
+        "mon_fox_gray" : 1,
+        "mon_gracke" : 1,
+        "mon_kreck" : 2,
+        "mon_manhack" : 2,
+        "mon_mi_go" : 4,
+        "mon_moose" : 4,
+        "mon_mosquito" : 1,
+        "mon_sewer_rat" : 2,
+        "mon_sewer_snake" : 1,
+        "mon_skeleton" : 4,
+        "mon_spider_web" : 2,
+        "mon_spider_wolf_giant" : 3,
+        "mon_squirrel_red" : 2,
+        "mon_triffid" : 6,
+        "mon_triffid_young" : 1,
+        "mon_vinebeast" : 4,
+        "mon_wasp_small" : 1,
+        "mon_wolf" : 11,
+        "mon_zolf" : 1,
+        "mon_zombie" : 172,
+        "mon_zombie_acidic" : 13,
+        "mon_zombie_brute" : 2,
+        "mon_zombie_brute_shocker" : 2,
+        "mon_zombie_child" : 29,
+        "mon_zombie_cop" : 8,
+        "mon_zombie_crawler" : 3,
+        "mon_zombie_dog" : 15,
+        "mon_zombie_electric" : 2,
+        "mon_zombie_fat" : 12,
+        "mon_zombie_fireman" : 5,
+        "mon_zombie_gasbag" : 1,
+        "mon_zombie_grabber" : 3,
+        "mon_zombie_grappler" : 1,
+        "mon_zombie_hazmat" : 1,
+        "mon_zombie_necro" : 1,
+        "mon_zombie_rot" : 10,
+        "mon_zombie_runner" : 2,
+        "mon_zombie_scientist" : 3,
+        "mon_zombie_shady" : 10,
+        "mon_zombie_shrieker" : 5,
+        "mon_zombie_soldier" : 9,
+        "mon_zombie_spitter" : 2,
+        "mon_zombie_swimmer" : 6,
+        "mon_zombie_tough" : 9,
+        "mon_zoose" : 1
+    },
+    "player" : {
+        "moves" : 33,
+        "pain" : 0,
+        "effects" : {
+            
+        },
+        "values" : {
+            
+        },
+        "blocks_left" : 1,
+        "dodges_left" : 1,
+        "num_blocks_bonus" : 0,
+        "num_dodges_bonus" : 0,
+        "armor_bash_bonus" : 0,
+        "armor_cut_bonus" : 0,
+        "speed" : 100,
+        "speed_bonus" : 0,
+        "dodge_bonus" : -7,
+        "block_bonus" : 0,
+        "hit_bonus" : 0,
+        "bash_bonus" : 0,
+        "cut_bonus" : 0,
+        "bash_mult" : 1.000000e+000,
+        "cut_mult" : 1.000000e+000,
+        "melee_quiet" : false,
+        "grab_resist" : 0,
+        "throw_resist" : 0,
+        "str_cur" : 12,
+        "str_max" : 10,
+        "dex_cur" : 10,
+        "dex_max" : 10,
+        "int_cur" : 14,
+        "int_max" : 12,
+        "per_cur" : 12,
+        "per_max" : 12,
+        "str_bonus" : 2,
+        "dex_bonus" : 0,
+        "per_bonus" : 0,
+        "int_bonus" : 2,
+        "healthy" : 1,
+        "healthy_mod" : 5,
+        "hunger" : 39,
+        "stomach_food" : 0,
+        "stomach_water" : 0,
+        "underwater" : false,
+        "traits" : [
+            "TRIGGERHAPPY",
+            "ROBUST",
+            "TRUTHTELLER",
+            "WOOLALLERGY",
+            "EAGLEEYED",
+            "NIGHTVISION",
+            "FASTREADER",
+            "LIGHTWEIGHT",
+            "SLOWHEALER",
+            "DISRESISTANT",
+            "WEAKSTOMACH",
+            "HEAVYSLEEPER",
+            "ADDICTIVE",
+            "UGLY"
+        ],
+        "mutations" : {
+            "ROBUST" : {
+                "key" : 104,
+                "charge" : 0,
+                "powered" : false
+            },
+            "TRUTHTELLER" : {
+                "key" : 103,
+                "charge" : 0,
+                "powered" : false
+            },
+            "TRIGGERHAPPY" : {
+                "key" : 102,
+                "charge" : 0,
+                "powered" : false
+            },
+            "HEAVYSLEEPER" : {
+                "key" : 97,
+                "charge" : 0,
+                "powered" : false
+            },
+            "ADDICTIVE" : {
+                "key" : 98,
+                "charge" : 0,
+                "powered" : false
+            },
+            "NIGHTVISION" : {
+                "key" : 105,
+                "charge" : 0,
+                "powered" : true
+            },
+            "EAGLEEYED" : {
+                "key" : 106,
+                "charge" : 0,
+                "powered" : false
+            },
+            "FASTREADER" : {
+                "key" : 107,
+                "charge" : 0,
+                "powered" : false
+            },
+            "LIGHTWEIGHT" : {
+                "key" : 108,
+                "charge" : 0,
+                "powered" : false
+            },
+            "SLOWHEALER" : {
+                "key" : 109,
+                "charge" : 0,
+                "powered" : false
+            },
+            "WOOLALLERGY" : {
+                "key" : 101,
+                "charge" : 0,
+                "powered" : false
+            },
+            "SKIN_ROUGH" : {
+                "key" : 111,
+                "charge" : 0,
+                "powered" : false
+            },
+            "DISRESISTANT" : {
+                "key" : 110,
+                "charge" : 0,
+                "powered" : false
+            },
+            "WEAKSTOMACH" : {
+                "key" : 100,
+                "charge" : 0,
+                "powered" : false
+            },
+            "UGLY" : {
+                "key" : 99,
+                "charge" : 0,
+                "powered" : false
+            }
+        },
+        "my_bionics" : [
+            {
+                "id" : "bio_magnet",
+                "invlet" : 97,
+                "powered" : false,
+                "charge" : 0
+            },
+            {
+                "id" : "bio_torsionratchet",
+                "invlet" : 98,
+                "powered" : false,
+                "charge" : 0
+            },
+            {
+                "id" : "bio_str_enhancer",
+                "invlet" : 99,
+                "powered" : false,
+                "charge" : 0
+            },
+            {
+                "id" : "bio_int_enhancer",
+                "invlet" : 100,
+                "powered" : false,
+                "charge" : 0
+            },
+            {
+                "id" : "bio_tools",
+                "invlet" : 101,
+                "powered" : true,
+                "charge" : 0
+            }
+        ],
+        "skills" : {
+            "barter" : {
+                "level" : 2,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 1106150
+            },
+            "computer" : {
+                "level" : 5,
+                "exercise" : 43,
+                "istraining" : true,
+                "lastpracticed" : 940565
+            },
+            "carpentry" : {
+                "level" : 3,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 1115785
+            },
+            "cooking" : {
+                "level" : 6,
+                "exercise" : 1279,
+                "istraining" : true,
+                "lastpracticed" : 1100240
+            },
+            "driving" : {
+                "level" : 8,
+                "exercise" : 2358,
+                "istraining" : true,
+                "lastpracticed" : 1112793
+            },
+            "electronics" : {
+                "level" : 10,
+                "exercise" : 5045,
+                "istraining" : true,
+                "lastpracticed" : 1101446
+            },
+            "fabrication" : {
+                "level" : 10,
+                "exercise" : 4051,
+                "istraining" : true,
+                "lastpracticed" : 1115532
+            },
+            "firstaid" : {
+                "level" : 6,
+                "exercise" : 72,
+                "istraining" : true,
+                "lastpracticed" : 1101446
+            },
+            "mechanics" : {
+                "level" : 11,
+                "exercise" : 4354,
+                "istraining" : true,
+                "lastpracticed" : 1102402
+            },
+            "speech" : {
+                "level" : 3,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 1104414
+            },
+            "survival" : {
+                "level" : 8,
+                "exercise" : 733,
+                "istraining" : true,
+                "lastpracticed" : 1107610
+            },
+            "swimming" : {
+                "level" : 1,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 99583
+            },
+            "tailor" : {
+                "level" : 7,
+                "exercise" : 6082,
+                "istraining" : true,
+                "lastpracticed" : 1073186
+            },
+            "traps" : {
+                "level" : 1,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 647154
+            },
+            "archery" : {
+                "level" : 2,
+                "exercise" : 436,
+                "istraining" : true,
+                "lastpracticed" : 127827
+            },
+            "bashing" : {
+                "level" : 2,
+                "exercise" : 748,
+                "istraining" : true,
+                "lastpracticed" : 1057120
+            },
+            "cutting" : {
+                "level" : 2,
+                "exercise" : 395,
+                "istraining" : true,
+                "lastpracticed" : 1042833
+            },
+            "dodge" : {
+                "level" : 3,
+                "exercise" : 41,
+                "istraining" : true,
+                "lastpracticed" : 1042837
+            },
+            "gun" : {
+                "level" : 5,
+                "exercise" : 1353,
+                "istraining" : true,
+                "lastpracticed" : 1107562
+            },
+            "launcher" : {
+                "level" : 0,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 4800
+            },
+            "melee" : {
+                "level" : 4,
+                "exercise" : 966,
+                "istraining" : true,
+                "lastpracticed" : 1057120
+            },
+            "stabbing" : {
+                "level" : 3,
+                "exercise" : 1479,
+                "istraining" : true,
+                "lastpracticed" : 1044279
+            },
+            "throw" : {
+                "level" : 1,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 87705
+            },
+            "unarmed" : {
+                "level" : 0,
+                "exercise" : 13,
+                "istraining" : true,
+                "lastpracticed" : 940225
+            },
+            "pistol" : {
+                "level" : 1,
+                "exercise" : 86,
+                "istraining" : true,
+                "lastpracticed" : 387192
+            },
+            "rifle" : {
+                "level" : 7,
+                "exercise" : 1098,
+                "istraining" : true,
+                "lastpracticed" : 1107562
+            },
+            "shotgun" : {
+                "level" : 3,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 776059
+            },
+            "smg" : {
+                "level" : 1,
+                "exercise" : 0,
+                "istraining" : true,
+                "lastpracticed" : 653117
+            }
+        },
+        "posx" : 71,
+        "posy" : 68,
+        "posz" : 0,
+        "thirst" : 48,
+        "fatigue" : 36,
+        "stim" : 0,
+        "pkill" : 0,
+        "radiation" : 0,
+        "tank_plut" : 0,
+        "reactor_plut" : 0,
+        "slow_rad" : 0,
+        "scent" : 500,
+        "body_wetness" : [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "oxygen" : 0,
+        "male" : true,
+        "cash" : 50211,
+        "recoil" : 150,
+        "in_vehicle" : false,
+        "id" : 1,
+        "hp_cur" : [
+            90,
+            90,
+            90,
+            90,
+            90,
+            90
+        ],
+        "hp_max" : [
+            90,
+            90,
+            90,
+            90,
+            90,
+            90
+        ],
+        "power_level" : 600,
+        "max_power_level" : 600,
+        "ma_styles" : [
+            "style_niten"
+        ],
+        "addictions" : [
+            
+        ],
+        "known_traps" : [
+            
+        ],
+        "worn" : [
+            {
+                "typeid" : "socks",
+                "bday" : 6490,
+                "invlet" : 103,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "gloves_liner",
+                "invlet" : 47,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "gauntlets_larmor",
+                "bday" : 33099,
+                "invlet" : 122,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "boots_larmor",
+                "bday" : 180432,
+                "invlet" : 65,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "survivor_pack",
+                "bday" : 267335,
+                "invlet" : 72,
+                "damage" : -1
+            },
+            {
+                "typeid" : "legrig",
+                "bday" : 338492,
+                "invlet" : 116,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "survivor_belt",
+                "bday" : 371576,
+                "invlet" : 119,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ],
+                "components" : [
+                    {
+                        "typeid" : "survivor_belt_notools",
+                        "bday" : 297609,
+                        "invlet" : 114,
+                        "item_tags" : [
+                            "FIT"
+                        ]
+                    },
+                    {
+                        "typeid" : "screwdriver_set",
+                        "invlet" : 61,
+                        "damage" : -1
+                    },
+                    {
+                        "typeid" : "wrench",
+                        "invlet" : 119,
+                        "damage" : -1
+                    },
+                    {
+                        "typeid" : "saw",
+                        "invlet" : 108
+                    },
+                    {
+                        "typeid" : "hacksaw",
+                        "invlet" : 81,
+                        "damage" : -1
+                    },
+                    {
+                        "typeid" : "hammer",
+                        "invlet" : 80,
+                        "damage" : -1
+                    }
+                ]
+            },
+            {
+                "typeid" : "diving_watch",
+                "item_vars" : {
+                    "lateral" : "1"
+                },
+                "invlet" : 61,
+                "damage" : -1
+            },
+            {
+                "typeid" : "mask_hsurvivor",
+                "bday" : 718020,
+                "invlet" : 107,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "helmet_hsurvivor",
+                "bday" : 718470,
+                "invlet" : 108,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "hsurvivor_suit",
+                "bday" : 728320,
+                "invlet" : 114,
+                "damage" : -1,
+                "item_tags" : [
+                    "FIT"
+                ]
+            },
+            {
+                "typeid" : "rad_badge",
+                "name" : "wrapped radiation badge",
+                "invlet" : 106
+            },
+            {
+                "typeid" : "survivor_rucksack",
+                "bday" : 368268,
+                "invlet" : 101,
+                "damage" : -1
+            }
+        ],
+        "inv" : [
+            {
+                "typeid" : "tihar",
+                "charges" : 15,
+                "bday" : 156239,
+                "invlet" : 125,
+                "contents" : [
+                    {
+                        "typeid" : "improve_sights",
+                        "bday" : 371062,
+                        "invlet" : 66
+                    },
+                    {
+                        "typeid" : "adjustable_stock",
+                        "bday" : 371566,
+                        "invlet" : 66
+                    }
+                ],
+                "curammo" : "pebble"
+            },
+            {
+                "typeid" : "pebble",
+                "charges" : 168,
+                "bday" : 1057877,
+                "invlet" : 123
+            },
+            {
+                "typeid" : "rapier",
+                "bday" : 671462,
+                "invlet" : 118,
+                "damage" : -1
+            },
+            {
+                "typeid" : "cash_card",
+                "charges" : 10758,
+                "bday" : 295945,
+                "invlet" : 43,
+                "curammo" : "money"
+            },
+            {
+                "typeid" : "cash_card",
+                "charges" : 11644,
+                "bday" : 380462,
+                "invlet" : 94,
+                "curammo" : "money"
+            },
+            {
+                "typeid" : "cash_card",
+                "charges" : 13596,
+                "bday" : 13118,
+                "invlet" : 93,
+                "curammo" : "money"
+            },
+            {
+                "typeid" : "cash_card",
+                "charges" : 13864,
+                "bday" : 27500,
+                "invlet" : 91,
+                "curammo" : "money"
+            },
+            {
+                "typeid" : "cash_card",
+                "charges" : 14430,
+                "bday" : 231875,
+                "invlet" : 59,
+                "damage" : -1,
+                "curammo" : "money"
+            },
+            {
+                "typeid" : "cash_card",
+                "charges" : 15329,
+                "bday" : 381465,
+                "invlet" : 58,
+                "curammo" : "money"
+            },
+            {
+                "typeid" : "cash_card",
+                "charges" : 34048,
+                "bday" : 168700,
+                "invlet" : 46,
+                "curammo" : "money"
+            },
+            {
+                "typeid" : "crowbar",
+                "bday" : 14079,
+                "invlet" : 40,
+                "damage" : -1
+            },
+            {
+                "typeid" : "electrohack",
+                "bday" : 704876,
+                "invlet" : 111,
+                "components" : [
+                    {
+                        "typeid" : "processor",
+                        "bday" : 364470,
+                        "invlet" : 73
+                    },
+                    {
+                        "typeid" : "RAM",
+                        "bday" : 315319,
+                        "invlet" : 106
+                    },
+                    {
+                        "typeid" : "scrap",
+                        "bday" : 364460,
+                        "invlet" : 74
+                    },
+                    {
+                        "typeid" : "scrap",
+                        "bday" : 364460,
+                        "invlet" : 74
+                    },
+                    {
+                        "typeid" : "scrap",
+                        "bday" : 364460,
+                        "invlet" : 74
+                    },
+                    {
+                        "typeid" : "scrap",
+                        "bday" : 311886,
+                        "invlet" : 74
+                    },
+                    {
+                        "typeid" : "cable",
+                        "charges" : 10,
+                        "bday" : 102216,
+                        "invlet" : 66
+                    }
+                ]
+            },
+            {
+                "typeid" : "crude_picklock",
+                "bday" : 5618,
+                "invlet" : 97,
+                "damage" : 1
+            },
+            {
+                "typeid" : "lighter",
+                "charges" : 61,
+                "invlet" : 35
+            },
+            {
+                "typeid" : "lighter",
+                "charges" : 68,
+                "invlet" : 67
+            },
+            {
+                "typeid" : "lighter",
+                "charges" : 77,
+                "invlet" : 34
+            },
+            {
+                "typeid" : "lighter",
+                "charges" : 78,
+                "invlet" : 33
+            },
+            {
+                "typeid" : "lighter",
+                "charges" : 87,
+                "invlet" : 121
+            },
+            {
+                "typeid" : "lighter",
+                "charges" : 100,
+                "invlet" : 82
+            },
+            {
+                "typeid" : "lighter",
+                "charges" : 100,
+                "invlet" : 82
+            },
+            {
+                "typeid" : "matches",
+                "charges" : 13,
+                "invlet" : 90
+            },
+            {
+                "typeid" : "mp3",
+                "charges" : 56,
+                "invlet" : 109,
+                "damage" : -1,
+                "item_tags" : [
+                    "NO_RELOAD",
+                    "NO_UNLOAD",
+                    "USE_UPS"
+                ],
+                "curammo" : "battery"
+            },
+            {
+                "typeid" : "multitool",
+                "invlet" : 89,
+                "damage" : -1
+            },
+            {
+                "typeid" : "hose",
+                "bday" : 744679,
+                "invlet" : 88
+            },
+            {
+                "typeid" : "hose",
+                "bday" : 745317,
+                "invlet" : 88
+            },
+            {
+                "typeid" : "knife_steak",
+                "invlet" : 120,
+                "damage" : -1
+            },
+            {
+                "typeid" : "survivor_scope",
+                "bday" : 370409,
+                "invlet" : 87,
+                "damage" : -1,
+                "components" : [
+                    {
+                        "typeid" : "plastic_chunk",
+                        "bday" : 114855,
+                        "invlet" : 98
+                    },
+                    {
+                        "typeid" : "plastic_chunk",
+                        "bday" : 114855,
+                        "invlet" : 98
+                    },
+                    {
+                        "typeid" : "plastic_chunk",
+                        "bday" : 103175,
+                        "invlet" : 98
+                    },
+                    {
+                        "typeid" : "plastic_chunk",
+                        "bday" : 12373,
+                        "invlet" : 98
+                    },
+                    {
+                        "typeid" : "lens",
+                        "bday" : 364460
+                    },
+                    {
+                        "typeid" : "lens",
+                        "bday" : 364460
+                    },
+                    {
+                        "typeid" : "spring",
+                        "bday" : 133170,
+                        "invlet" : 90
+                    }
+                ]
+            },
+            {
+                "typeid" : "needle_wood",
+                "charges" : 144,
+                "bday" : 5874,
+                "invlet" : 110,
+                "curammo" : "thread"
+            },
+            {
+                "typeid" : "wristwatch",
+                "invlet" : 100
+            },
+            {
+                "typeid" : "waterskin",
+                "bday" : 32213,
+                "invlet" : 105,
+                "damage" : -1,
+                "contents" : [
+                    {
+                        "typeid" : "soup_meat",
+                        "charges" : 6,
+                        "bday" : 1076400,
+                        "active" : true,
+                        "rot" : 22252,
+                        "last_rot_check" : 1115794
+                    }
+                ]
+            },
+            {
+                "typeid" : "adrenaline_injector",
+                "bday" : 770400,
+                "invlet" : 117
+            },
+            {
+                "typeid" : "aspirin",
+                "charges" : 36,
+                "invlet" : 78
+            },
+            {
+                "typeid" : "bandages",
+                "charges" : 10,
+                "bday" : 194400,
+                "invlet" : 77
+            },
+            {
+                "typeid" : "caffeine",
+                "charges" : 10,
+                "invlet" : 85
+            },
+            {
+                "typeid" : "1st_aid",
+                "charges" : 5,
+                "invlet" : 75
+            },
+            {
+                "typeid" : "vitamins",
+                "charges" : 1,
+                "invlet" : 74
+            },
+            {
+                "typeid" : "waterskin",
+                "bday" : 981244,
+                "invlet" : 99,
+                "damage" : -1
+            },
+            {
+                "typeid" : "nail",
+                "charges" : 335,
+                "bday" : 77075,
+                "invlet" : 104
+            },
+            {
+                "typeid" : "thread",
+                "charges" : 853,
+                "bday" : 958130,
+                "invlet" : 98
+            },
+            {
+                "typeid" : "frame_wood",
+                "bday" : 1115472,
+                "invlet" : 113,
+                "components" : [
+                    {
+                        "typeid" : "2x4",
+                        "bday" : 1114193
+                    },
+                    {
+                        "typeid" : "2x4",
+                        "bday" : 1114193
+                    },
+                    {
+                        "typeid" : "2x4",
+                        "bday" : 1114193
+                    },
+                    {
+                        "typeid" : "2x4",
+                        "bday" : 1114193
+                    },
+                    {
+                        "typeid" : "2x4",
+                        "bday" : 1115210
+                    },
+                    {
+                        "typeid" : "nail",
+                        "charges" : 20,
+                        "bday" : 1113993
+                    }
+                ]
+            }
+        ],
+        "profession" : "svictim",
+        "scenario" : "evacuee",
+        "driving_recoil" : 0,
+        "controlling_vehicle" : false,
+        "grab_point" : [
+            0,
+            0,
+            0
+        ],
+        "grab_type" : "OBJECT_NONE",
+        "focus_pool" : 95,
+        "style_selected" : "style_none",
+        "keep_hands_free" : false,
+        "stamina" : 1000,
+        "move_mode" : "walk",
+        "activity" : {
+            "type" : 0,
+            "moves_left" : 0,
+            "index" : -1,
+            "position" : -2147483648,
+            "coords" : [
+                
+            ],
+            "name" : "",
+            "placement" : [
+                -2147483648,
+                -2147483648,
+                -2147483648
+            ],
+            "values" : [
+                
+            ],
+            "str_values" : [
+                
+            ],
+            "auto_resume" : false
+        },
+        "backlog" : [
+            
+        ],
+        "temp_cur" : [
+            4568,
+            4303,
+            5000,
+            4568,
+            4405,
+            4405,
+            5222,
+            5222,
+            4568,
+            4568,
+            5136,
+            5136
+        ],
+        "temp_conv" : [
+            4568,
+            4604,
+            5000,
+            4568,
+            4591,
+            4591,
+            5749,
+            5749,
+            4568,
+            4568,
+            5136,
+            5136
+        ],
+        "frostbite_timer" : [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "learned_recipes" : [
+            "20x66_bootleg_flechette",
+            "20x66_bootleg_shot",
+            "20x66_bootleg_slug",
+            "amplifier",
+            "antenna",
+            "antifungal",
+            "armor_blarmor",
+            "barrel_ported",
+            "battery",
+            "battleaxe",
+            "blowback",
+            "bot_EMP_hack",
+            "bot_flashbang_hack",
+            "bot_gasbomb_hack",
+            "bot_grenade_hack",
+            "bot_manhack",
+            "bot_mininuke_hack",
+            "bot_rifleturret",
+            "bot_turret",
+            "brew_dandelion_wine",
+            "brew_milk_curdled",
+            "brew_pine_wine",
+            "broadsword",
+            "bullet_crossbow",
+            "chainsaw_off",
+            "char_forge",
+            "char_smoker",
+            "cheese_hard",
+            "chemistry_set",
+            "chemlab",
+            "coffeemaker",
+            "control_laptop",
+            "craftrig",
+            "crossbow",
+            "cutlass",
+            "disinfectant",
+            "drive_by_wire_controls",
+            "duct_tape",
+            "elec_hairtrimmer",
+            "electrohack",
+            "element",
+            "fish_bait_bread",
+            "fish_bait_fish",
+            "fish_bait_meat",
+            "fish_bait_veggy",
+            "flashlight",
+            "forgerig",
+            "fungicide",
+            "gas_chloramine",
+            "gas_fungicidal",
+            "geiger_off",
+            "gloves_liner",
+            "gloves_work",
+            "goggles_nv",
+            "gun_crossbow",
+            "haggis",
+            "hand_crossbow",
+            "hard_plate",
+            "headlight_reinforced",
+            "hflesh_drink",
+            "hflesh_shake",
+            "hickory_nut_ambrosia",
+            "hotplate",
+            "huge_crossbow",
+            "jackhammer",
+            "jeans",
+            "lead_plate",
+            "lightstrip_inactive",
+            "longbow",
+            "mace",
+            "makeshift_sealer",
+            "mask_filter",
+            "mask_gas",
+            "mask_gas_xl",
+            "mask_gas_xlexpand-existing",
+            "mess_kit",
+            "morningstar",
+            "motor_small",
+            "mp3",
+            "muzzle_brake",
+            "nachoshc",
+            "nachoshf",
+            "nomex_socks",
+            "pants_cargo",
+            "poppy_pain",
+            "poppy_sleep",
+            "poppysyrup",
+            "portable_game",
+            "power_supply",
+            "press",
+            "quikclot",
+            "rapier",
+            "rebreather",
+            "rebreather_filter",
+            "rebreather_xl",
+            "receiver",
+            "recharge_station",
+            "rehydrated_hflesh",
+            "reinforced_glass_pane",
+            "reinforced_solar_panel_v2",
+            "reloaded_40mm_flechette",
+            "reloaded_40mm_shot",
+            "reloaded_shot_00",
+            "reloaded_shot_beanbag",
+            "reloaded_shot_bird",
+            "reloaded_shot_flechette",
+            "reloaded_shot_slug",
+            "reloaded_signal_flare",
+            "rep_crossbow",
+            "royal_jelly",
+            "saline",
+            "sandwich_human",
+            "shishkebab_off",
+            "shot_scrap",
+            "shot_scrapbag",
+            "shot_scrapslug",
+            "shotgun_primer",
+            "small_repairkit",
+            "solar_panel_v2",
+            "spiked_plate",
+            "tanning_peltmodern",
+            "tazer",
+            "tea_bark",
+            "transponder",
+            "u_shotgun",
+            "union_suit",
+            "warhammer",
+            "water_acid",
+            "water_purifier",
+            "welder_crude",
+            "weldrig",
+            "zweihander"
+        ],
+        "items_identified" : [
+            "poetry_book",
+            "fun_survival",
+            "mag_beauty",
+            "recipe_augs",
+            "manual_rifle",
+            "textbook_survival",
+            "manual_mechanics",
+            "textbook_gaswarfare",
+            "tall_tales",
+            "manual_driving",
+            "textbook_weapeast",
+            "manual_survival",
+            "novel_western",
+            "recipe_bows",
+            "philosophy_book",
+            "novel_pulp",
+            "manual_carpentry",
+            "cookbook_human",
+            "mag_barter",
+            "textbook_weapwest",
+            "manual_swimming",
+            "manual_business",
+            "mag_throwing",
+            "manual_cutting",
+            "novel_sports",
+            "mag_comic",
+            "ZSG",
+            "mag_news",
+            "plays_book",
+            "textbook_firstaid",
+            "mag_cooking",
+            "novel_romance",
+            "mag_fabrication",
+            "manual_traps",
+            "novel_fantasy",
+            "novel_erotic",
+            "survival_book",
+            "scots_cookbook",
+            "novel_war",
+            "mag_computer",
+            "recipe_arrows",
+            "textbook_biodiesel",
+            "novel_horror",
+            "mag_tailor",
+            "mag_stabbing",
+            "mag_glam",
+            "101_carpentry",
+            "manual_dodge",
+            "howto_computer",
+            "textbook_robots",
+            "novel_crime",
+            "textbook_electronics",
+            "novel_road",
+            "news_regional",
+            "mag_rifle",
+            "decoy_anarch",
+            "novel_coa",
+            "manual_shotgun",
+            "manual_stabbing",
+            "mag_unarmed",
+            "novel_swash",
+            "manual_first_aid",
+            "mag_guns",
+            "story_book",
+            "cookbook_italian",
+            "mag_dude",
+            "manual_electronics",
+            "textbook_armwest",
+            "manual_melee",
+            "advanced_electronics",
+            "mag_swimming",
+            "novel_buddy",
+            "photo_album",
+            "textbook_business",
+            "novel_scifi",
+            "novel_spy",
+            "novel_satire",
+            "textbook_speech",
+            "manual_brawl",
+            "mag_survival",
+            "textbook_chemistry",
+            "modern_tanner",
+            "carpentry_book",
+            "computer_science",
+            "recipe_bullets",
+            "mag_traps",
+            "mag_electronics",
+            "manual_niten",
+            "brewing_cookbook",
+            "novel_samurai",
+            "cookbook",
+            "mag_bashing",
+            "mag_carpentry",
+            "mag_tv",
+            "manual_computers",
+            "mag_cars",
+            "textbook_fabrication",
+            "textbook_tailor",
+            "manual_speech",
+            "welding_book",
+            "novel_drama",
+            "manual_throw",
+            "fairy_tales",
+            "novel_thriller",
+            "novel_adventure",
+            "novel_tragedy",
+            "manual_smg",
+            "manual_tailor",
+            "manual_fabrication",
+            "novel_mystery",
+            "textbook_armeast",
+            "textbook_mechanics",
+            "book_icef",
+            "essay_book",
+            "mag_dodge",
+            "mag_smg",
+            "mag_melee",
+            "manual_gun",
+            "mag_mechanics",
+            "howto_traps"
+        ],
+        "morale" : [
+            
+        ],
+        "active_mission" : -1,
+        "active_missions" : [
+            
+        ],
+        "completed_missions" : [
+            
+        ],
+        "failed_missions" : [
+            
+        ],
+        "player_stats" : {
+            "squares_walked" : 100,
+            "damage_taken" : 0,
+            "damage_healed" : 0,
+            "headshots" : 0
+        },
+        "assigned_invlet" : [
+            [
+                97,
+                "crude_picklock"
+            ],
+            [
+                102,
+                "flashlight"
+            ],
+            [
+                109,
+                "mp3"
+            ],
+            [
+                110,
+                "needle_wood"
+            ],
+            [
+                112,
+                "crude_picklock"
+            ],
+            [
+                115,
+                "soldering_iron"
+            ],
+            [
+                120,
+                "knife_steak"
+            ]
+        ],
+        "invcache" : [
+            {
+                "101_carpentry" : [
+                    
+                ]
+            },
+            {
+                "10mm" : [
+                    
+                ]
+            },
+            {
+                "120mm_usable_heat" : [
+                    
+                ]
+            },
+            {
+                "1cyl_combustion" : [
+                    
+                ]
+            },
+            {
+                "1cyl_combustion_small" : [
+                    
+                ]
+            },
+            {
+                "1st_aid" : [
+                    75
+                ]
+            },
+            {
+                "20x66_slug" : [
+                    
+                ]
+            },
+            {
+                "223" : [
+                    
+                ]
+            },
+            {
+                "223_casing" : [
+                    71
+                ]
+            },
+            {
+                "22_casing" : [
+                    
+                ]
+            },
+            {
+                "22_casing_new" : [
+                    79
+                ]
+            },
+            {
+                "22_lr" : [
+                    
+                ]
+            },
+            {
+                "270" : [
+                    
+                ]
+            },
+            {
+                "2x4" : [
+                    
+                ]
+            },
+            {
+                "308" : [
+                    
+                ]
+            },
+            {
+                "308_casing" : [
+                    69
+                ]
+            },
+            {
+                "38_casing" : [
+                    73
+                ]
+            },
+            {
+                "40mm_casing" : [
+                    80
+                ]
+            },
+            {
+                "44_casing" : [
+                    
+                ]
+            },
+            {
+                "44magnum" : [
+                    
+                ]
+            },
+            {
+                "45_acp" : [
+                    
+                ]
+            },
+            {
+                "46mm" : [
+                    124
+                ]
+            },
+            {
+                "46mm_casing" : [
+                    68
+                ]
+            },
+            {
+                "500_casing" : [
+                    76
+                ]
+            },
+            {
+                "50bmg" : [
+                    
+                ]
+            },
+            {
+                "545" : [
+                    
+                ]
+            },
+            {
+                "556" : [
+                    
+                ]
+            },
+            {
+                "57mm_casing" : [
+                    66
+                ]
+            },
+            {
+                "5x50dart" : [
+                    
+                ]
+            },
+            {
+                "762_51" : [
+                    
+                ]
+            },
+            {
+                "762_casing" : [
+                    
+                ]
+            },
+            {
+                "9mm" : [
+                    
+                ]
+            },
+            {
+                "RAM" : [
+                    
+                ]
+            },
+            {
+                "TDI" : [
+                    
+                ]
+            },
+            {
+                "UPS_off" : [
+                    
+                ]
+            },
+            {
+                "adderall" : [
+                    
+                ]
+            },
+            {
+                "adjustable_stock" : [
+                    
+                ]
+            },
+            {
+                "adrenaline_injector" : [
+                    117
+                ]
+            },
+            {
+                "advanced_electronics" : [
+                    
+                ]
+            },
+            {
+                "alternator_truck" : [
+                    
+                ]
+            },
+            {
+                "amplifier" : [
+                    
+                ]
+            },
+            {
+                "antenna" : [
+                    
+                ]
+            },
+            {
+                "antibiotics" : [
+                    
+                ]
+            },
+            {
+                "antifungal" : [
+                    
+                ]
+            },
+            {
+                "antiparasitic" : [
+                    
+                ]
+            },
+            {
+                "anvil" : [
+                    
+                ]
+            },
+            {
+                "ar15" : [
+                    
+                ]
+            },
+            {
+                "arm_warmers" : [
+                    
+                ]
+            },
+            {
+                "armguard_larmor" : [
+                    
+                ]
+            },
+            {
+                "armguard_soft" : [
+                    
+                ]
+            },
+            {
+                "armor_larmor" : [
+                    
+                ]
+            },
+            {
+                "armor_nomad" : [
+                    
+                ]
+            },
+            {
+                "aspirin" : [
+                    78
+                ]
+            },
+            {
+                "atomic_lamp" : [
+                    
+                ]
+            },
+            {
+                "ax" : [
+                    
+                ]
+            },
+            {
+                "backpack" : [
+                    
+                ]
+            },
+            {
+                "bag_canvas" : [
+                    
+                ]
+            },
+            {
+                "bag_plastic" : [
+                    
+                ]
+            },
+            {
+                "balclava" : [
+                    
+                ]
+            },
+            {
+                "bandages" : [
+                    77
+                ]
+            },
+            {
+                "bat" : [
+                    
+                ]
+            },
+            {
+                "battery" : [
+                    
+                ]
+            },
+            {
+                "battery_car" : [
+                    
+                ]
+            },
+            {
+                "battery_truck" : [
+                    
+                ]
+            },
+            {
+                "battery_ups" : [
+                    
+                ]
+            },
+            {
+                "beeper" : [
+                    
+                ]
+            },
+            {
+                "bio_int_enhancer" : [
+                    
+                ]
+            },
+            {
+                "bio_lighter" : [
+                    
+                ]
+            },
+            {
+                "bio_magnet" : [
+                    
+                ]
+            },
+            {
+                "bio_power_storage" : [
+                    
+                ]
+            },
+            {
+                "bio_str_enhancer" : [
+                    
+                ]
+            },
+            {
+                "bio_tools" : [
+                    
+                ]
+            },
+            {
+                "bio_torsionratchet" : [
+                    
+                ]
+            },
+            {
+                "biscuit" : [
+                    
+                ]
+            },
+            {
+                "blade" : [
+                    
+                ]
+            },
+            {
+                "blanket" : [
+                    
+                ]
+            },
+            {
+                "blueberries" : [
+                    
+                ]
+            },
+            {
+                "boiled_egg" : [
+                    
+                ]
+            },
+            {
+                "boltcutters" : [
+                    
+                ]
+            },
+            {
+                "bone" : [
+                    
+                ]
+            },
+            {
+                "book_icef" : [
+                    
+                ]
+            },
+            {
+                "boots" : [
+                    
+                ]
+            },
+            {
+                "boots_bunker" : [
+                    
+                ]
+            },
+            {
+                "boots_combat" : [
+                    
+                ]
+            },
+            {
+                "boots_rubber" : [
+                    
+                ]
+            },
+            {
+                "boots_steel" : [
+                    
+                ]
+            },
+            {
+                "boots_winter" : [
+                    
+                ]
+            },
+            {
+                "bot_turret" : [
+                    
+                ]
+            },
+            {
+                "bottle_glass" : [
+                    
+                ]
+            },
+            {
+                "bottle_plastic" : [
+                    
+                ]
+            },
+            {
+                "bottle_plastic_small" : [
+                    83
+                ]
+            },
+            {
+                "bowl_plastic" : [
+                    
+                ]
+            },
+            {
+                "box_small" : [
+                    
+                ]
+            },
+            {
+                "brass_catcher" : [
+                    81
+                ]
+            },
+            {
+                "brewing_cookbook" : [
+                    
+                ]
+            },
+            {
+                "brick_kiln" : [
+                    
+                ]
+            },
+            {
+                "broadsword" : [
+                    
+                ]
+            },
+            {
+                "broccoli" : [
+                    86
+                ]
+            },
+            {
+                "bunker_coat" : [
+                    
+                ]
+            },
+            {
+                "bunker_pants" : [
+                    
+                ]
+            },
+            {
+                "burnt_out_bionic" : [
+                    
+                ]
+            },
+            {
+                "cabbage" : [
+                    42
+                ]
+            },
+            {
+                "cable" : [
+                    
+                ]
+            },
+            {
+                "caff_gum" : [
+                    
+                ]
+            },
+            {
+                "caffeine" : [
+                    85
+                ]
+            },
+            {
+                "camelbak" : [
+                    
+                ]
+            },
+            {
+                "camera" : [
+                    
+                ]
+            },
+            {
+                "camera_pro" : [
+                    
+                ]
+            },
+            {
+                "can_drink" : [
+                    
+                ]
+            },
+            {
+                "can_food" : [
+                    
+                ]
+            },
+            {
+                "cargo_rack" : [
+                    
+                ]
+            },
+            {
+                "carpentry_book" : [
+                    
+                ]
+            },
+            {
+                "carrot" : [
+                    
+                ]
+            },
+            {
+                "cash_card" : [
+                    43,
+                    46,
+                    58,
+                    59,
+                    91,
+                    93,
+                    94
+                ]
+            },
+            {
+                "cell_phone" : [
+                    
+                ]
+            },
+            {
+                "ceramic_armor" : [
+                    
+                ]
+            },
+            {
+                "ceramic_shard" : [
+                    
+                ]
+            },
+            {
+                "chain" : [
+                    
+                ]
+            },
+            {
+                "char_smoker" : [
+                    
+                ]
+            },
+            {
+                "charcoal" : [
+                    
+                ]
+            },
+            {
+                "chisel" : [
+                    
+                ]
+            },
+            {
+                "chitin_piece" : [
+                    
+                ]
+            },
+            {
+                "circuit" : [
+                    
+                ]
+            },
+            {
+                "cleansuit" : [
+                    
+                ]
+            },
+            {
+                "coat_rain" : [
+                    
+                ]
+            },
+            {
+                "coke" : [
+                    
+                ]
+            },
+            {
+                "commune_prospectus" : [
+                    
+                ]
+            },
+            {
+                "computer_science" : [
+                    
+                ]
+            },
+            {
+                "cookbook" : [
+                    
+                ]
+            },
+            {
+                "cookbook_italian" : [
+                    
+                ]
+            },
+            {
+                "cooked_burrito" : [
+                    
+                ]
+            },
+            {
+                "cookies" : [
+                    
+                ]
+            },
+            {
+                "cordless_drill" : [
+                    
+                ]
+            },
+            {
+                "corn" : [
+                    
+                ]
+            },
+            {
+                "cornmeal" : [
+                    
+                ]
+            },
+            {
+                "cracklins" : [
+                    
+                ]
+            },
+            {
+                "crafted_suppressor" : [
+                    
+                ]
+            },
+            {
+                "cranberries" : [
+                    64
+                ]
+            },
+            {
+                "crowbar" : [
+                    40
+                ]
+            },
+            {
+                "crucible" : [
+                    
+                ]
+            },
+            {
+                "crude_picklock" : [
+                    97
+                ]
+            },
+            {
+                "cu_pipe" : [
+                    
+                ]
+            },
+            {
+                "cup_plastic" : [
+                    
+                ]
+            },
+            {
+                "cured_pelt" : [
+                    
+                ]
+            },
+            {
+                "datura_seed" : [
+                    
+                ]
+            },
+            {
+                "decoy_anarch" : [
+                    
+                ]
+            },
+            {
+                "dehydrator" : [
+                    
+                ]
+            },
+            {
+                "deluxe_beansnrice" : [
+                    
+                ]
+            },
+            {
+                "deluxe_eggs" : [
+                    
+                ]
+            },
+            {
+                "deluxe_veggy_beansnrice" : [
+                    
+                ]
+            },
+            {
+                "digging_stick" : [
+                    
+                ]
+            },
+            {
+                "distaff_spindle" : [
+                    
+                ]
+            },
+            {
+                "diving_watch" : [
+                    61
+                ]
+            },
+            {
+                "down_blanket" : [
+                    
+                ]
+            },
+            {
+                "down_pillow" : [
+                    
+                ]
+            },
+            {
+                "drive_by_wire_controls" : [
+                    
+                ]
+            },
+            {
+                "dry_fish" : [
+                    
+                ]
+            },
+            {
+                "dry_fruit" : [
+                    
+                ]
+            },
+            {
+                "dry_meat" : [
+                    
+                ]
+            },
+            {
+                "dry_rice" : [
+                    
+                ]
+            },
+            {
+                "dry_veggy" : [
+                    
+                ]
+            },
+            {
+                "duct_tape" : [
+                    
+                ]
+            },
+            {
+                "duffelbag" : [
+                    
+                ]
+            },
+            {
+                "duster" : [
+                    
+                ]
+            },
+            {
+                "e_scrap" : [
+                    
+                ]
+            },
+            {
+                "ear_plugs" : [
+                    
+                ]
+            },
+            {
+                "egg_bird" : [
+                    
+                ]
+            },
+            {
+                "electric_primer_large" : [
+                    
+                ]
+            },
+            {
+                "electrohack" : [
+                    111
+                ]
+            },
+            {
+                "element" : [
+                    84
+                ]
+            },
+            {
+                "extinguisher" : [
+                    
+                ]
+            },
+            {
+                "eyedrops" : [
+                    
+                ]
+            },
+            {
+                "fat" : [
+                    
+                ]
+            },
+            {
+                "fcs" : [
+                    
+                ]
+            },
+            {
+                "felt_patch" : [
+                    
+                ]
+            },
+            {
+                "fire_ax" : [
+                    
+                ]
+            },
+            {
+                "fire_gauntlets" : [
+                    
+                ]
+            },
+            {
+                "firehelmet" : [
+                    
+                ]
+            },
+            {
+                "fireman_belt" : [
+                    
+                ]
+            },
+            {
+                "flamethrower_simple" : [
+                    
+                ]
+            },
+            {
+                "flaregun" : [
+                    
+                ]
+            },
+            {
+                "flashlight" : [
+                    102,
+                    38
+                ]
+            },
+            {
+                "flour" : [
+                    
+                ]
+            },
+            {
+                "flute" : [
+                    
+                ]
+            },
+            {
+                "foot_crank" : [
+                    
+                ]
+            },
+            {
+                "forge" : [
+                    
+                ]
+            },
+            {
+                "frame" : [
+                    
+                ]
+            },
+            {
+                "frame_wood" : [
+                    113
+                ]
+            },
+            {
+                "fried_spam" : [
+                    
+                ]
+            },
+            {
+                "fun_survival" : [
+                    
+                ]
+            },
+            {
+                "funnel" : [
+                    
+                ]
+            },
+            {
+                "fur_rollmat" : [
+                    
+                ]
+            },
+            {
+                "gasoline_cooker" : [
+                    
+                ]
+            },
+            {
+                "gasoline_lantern" : [
+                    
+                ]
+            },
+            {
+                "gauntlets_larmor" : [
+                    122
+                ]
+            },
+            {
+                "glass_shard" : [
+                    
+                ]
+            },
+            {
+                "glasses_bal" : [
+                    
+                ]
+            },
+            {
+                "glasses_safety" : [
+                    
+                ]
+            },
+            {
+                "gloves_leather" : [
+                    
+                ]
+            },
+            {
+                "gloves_light" : [
+                    
+                ]
+            },
+            {
+                "gloves_liner" : [
+                    47
+                ]
+            },
+            {
+                "gloves_tactical" : [
+                    
+                ]
+            },
+            {
+                "goggles_nv" : [
+                    
+                ]
+            },
+            {
+                "goggles_swim" : [
+                    
+                ]
+            },
+            {
+                "goggles_welding" : [
+                    
+                ]
+            },
+            {
+                "gold" : [
+                    
+                ]
+            },
+            {
+                "gold_small" : [
+                    
+                ]
+            },
+            {
+                "grenade" : [
+                    
+                ]
+            },
+            {
+                "grip" : [
+                    
+                ]
+            },
+            {
+                "gummy_vitamins" : [
+                    
+                ]
+            },
+            {
+                "hacksaw" : [
+                    
+                ]
+            },
+            {
+                "hammer" : [
+                    
+                ]
+            },
+            {
+                "hammer_sledge" : [
+                    
+                ]
+            },
+            {
+                "hat_hard" : [
+                    
+                ]
+            },
+            {
+                "hatchet" : [
+                    
+                ]
+            },
+            {
+                "headlight_reinforced" : [
+                    
+                ]
+            },
+            {
+                "heatpack" : [
+                    
+                ]
+            },
+            {
+                "heavy_flashlight" : [
+                    
+                ]
+            },
+            {
+                "helmet_army" : [
+                    
+                ]
+            },
+            {
+                "helmet_bone" : [
+                    
+                ]
+            },
+            {
+                "helmet_hsurvivor" : [
+                    108
+                ]
+            },
+            {
+                "helmet_larmor" : [
+                    
+                ]
+            },
+            {
+                "helsing" : [
+                    
+                ]
+            },
+            {
+                "heroin" : [
+                    
+                ]
+            },
+            {
+                "hk_ucp" : [
+                    
+                ]
+            },
+            {
+                "holster" : [
+                    
+                ]
+            },
+            {
+                "hood_rain" : [
+                    
+                ]
+            },
+            {
+                "horn_car" : [
+                    
+                ]
+            },
+            {
+                "hose" : [
+                    88
+                ]
+            },
+            {
+                "hotplate" : [
+                    
+                ]
+            },
+            {
+                "howto_computer" : [
+                    
+                ]
+            },
+            {
+                "howto_traps" : [
+                    
+                ]
+            },
+            {
+                "hsurvivor_suit" : [
+                    114
+                ]
+            },
+            {
+                "id_military" : [
+                    
+                ]
+            },
+            {
+                "id_science" : [
+                    
+                ]
+            },
+            {
+                "improve_sights" : [
+                    
+                ]
+            },
+            {
+                "incendiary" : [
+                    
+                ]
+            },
+            {
+                "inhaler" : [
+                    
+                ]
+            },
+            {
+                "insta_salad" : [
+                    
+                ]
+            },
+            {
+                "iodine" : [
+                    
+                ]
+            },
+            {
+                "jack" : [
+                    
+                ]
+            },
+            {
+                "jackhammer" : [
+                    
+                ]
+            },
+            {
+                "jar_3l_glass" : [
+                    
+                ]
+            },
+            {
+                "jar_fish_pickled" : [
+                    
+                ]
+            },
+            {
+                "jar_glass" : [
+                    
+                ]
+            },
+            {
+                "jar_kompot" : [
+                    
+                ]
+            },
+            {
+                "jar_meat_pickled" : [
+                    
+                ]
+            },
+            {
+                "jar_tomato_canned" : [
+                    
+                ]
+            },
+            {
+                "jar_veggy_canned" : [
+                    
+                ]
+            },
+            {
+                "jerky" : [
+                    
+                ]
+            },
+            {
+                "jerrycan" : [
+                    
+                ]
+            },
+            {
+                "jerrycan_big" : [
+                    
+                ]
+            },
+            {
+                "johnnycake" : [
+                    
+                ]
+            },
+            {
+                "joint" : [
+                    
+                ]
+            },
+            {
+                "jug_plastic" : [
+                    
+                ]
+            },
+            {
+                "jumper_cable" : [
+                    
+                ]
+            },
+            {
+                "jumper_cable_heavy" : [
+                    
+                ]
+            },
+            {
+                "kevlar_plate" : [
+                    
+                ]
+            },
+            {
+                "kitchen_unit" : [
+                    
+                ]
+            },
+            {
+                "knife_butcher" : [
+                    
+                ]
+            },
+            {
+                "knife_butter" : [
+                    
+                ]
+            },
+            {
+                "knife_steak" : [
+                    120
+                ]
+            },
+            {
+                "l_mp_9mm" : [
+                    
+                ]
+            },
+            {
+                "laptop" : [
+                    
+                ]
+            },
+            {
+                "lard" : [
+                    
+                ]
+            },
+            {
+                "lawnmower" : [
+                    
+                ]
+            },
+            {
+                "lead" : [
+                    
+                ]
+            },
+            {
+                "leather" : [
+                    
+                ]
+            },
+            {
+                "leather_funnel" : [
+                    
+                ]
+            },
+            {
+                "leather_pouch" : [
+                    
+                ]
+            },
+            {
+                "legrig" : [
+                    116
+                ]
+            },
+            {
+                "lemon" : [
+                    
+                ]
+            },
+            {
+                "lens" : [
+                    
+                ]
+            },
+            {
+                "lgpistol_primer" : [
+                    
+                ]
+            },
+            {
+                "lighter" : [
+                    33,
+                    34,
+                    35,
+                    82,
+                    121,
+                    67
+                ]
+            },
+            {
+                "long_underpants" : [
+                    
+                ]
+            },
+            {
+                "long_undertop" : [
+                    
+                ]
+            },
+            {
+                "m14ebr" : [
+                    
+                ]
+            },
+            {
+                "m240" : [
+                    
+                ]
+            },
+            {
+                "m249" : [
+                    
+                ]
+            },
+            {
+                "m2browning" : [
+                    
+                ]
+            },
+            {
+                "m4a1" : [
+                    
+                ]
+            },
+            {
+                "m60" : [
+                    
+                ]
+            },
+            {
+                "m9" : [
+                    
+                ]
+            },
+            {
+                "mag_barter" : [
+                    
+                ]
+            },
+            {
+                "mag_bashing" : [
+                    
+                ]
+            },
+            {
+                "mag_beauty" : [
+                    
+                ]
+            },
+            {
+                "mag_carpentry" : [
+                    
+                ]
+            },
+            {
+                "mag_cars" : [
+                    
+                ]
+            },
+            {
+                "mag_computer" : [
+                    
+                ]
+            },
+            {
+                "mag_cooking" : [
+                    
+                ]
+            },
+            {
+                "mag_dodge" : [
+                    
+                ]
+            },
+            {
+                "mag_dude" : [
+                    
+                ]
+            },
+            {
+                "mag_electronics" : [
+                    
+                ]
+            },
+            {
+                "mag_fabrication" : [
+                    
+                ]
+            },
+            {
+                "mag_glam" : [
+                    
+                ]
+            },
+            {
+                "mag_guns" : [
+                    
+                ]
+            },
+            {
+                "mag_mechanics" : [
+                    
+                ]
+            },
+            {
+                "mag_melee" : [
+                    
+                ]
+            },
+            {
+                "mag_rifle" : [
+                    
+                ]
+            },
+            {
+                "mag_smg" : [
+                    
+                ]
+            },
+            {
+                "mag_stabbing" : [
+                    
+                ]
+            },
+            {
+                "mag_survival" : [
+                    
+                ]
+            },
+            {
+                "mag_swimming" : [
+                    
+                ]
+            },
+            {
+                "mag_tailor" : [
+                    
+                ]
+            },
+            {
+                "mag_throwing" : [
+                    
+                ]
+            },
+            {
+                "mag_traps" : [
+                    
+                ]
+            },
+            {
+                "mag_tv" : [
+                    
+                ]
+            },
+            {
+                "mag_unarmed" : [
+                    
+                ]
+            },
+            {
+                "makeshift_crowbar" : [
+                    
+                ]
+            },
+            {
+                "makeshift_knife" : [
+                    
+                ]
+            },
+            {
+                "makeshift_sealer" : [
+                    
+                ]
+            },
+            {
+                "manual_brawl" : [
+                    
+                ]
+            },
+            {
+                "manual_business" : [
+                    
+                ]
+            },
+            {
+                "manual_carpentry" : [
+                    
+                ]
+            },
+            {
+                "manual_computers" : [
+                    
+                ]
+            },
+            {
+                "manual_cutting" : [
+                    
+                ]
+            },
+            {
+                "manual_dodge" : [
+                    
+                ]
+            },
+            {
+                "manual_electronics" : [
+                    
+                ]
+            },
+            {
+                "manual_fabrication" : [
+                    
+                ]
+            },
+            {
+                "manual_first_aid" : [
+                    
+                ]
+            },
+            {
+                "manual_gun" : [
+                    
+                ]
+            },
+            {
+                "manual_mechanics" : [
+                    
+                ]
+            },
+            {
+                "manual_melee" : [
+                    
+                ]
+            },
+            {
+                "manual_rifle" : [
+                    
+                ]
+            },
+            {
+                "manual_shotgun" : [
+                    
+                ]
+            },
+            {
+                "manual_speech" : [
+                    
+                ]
+            },
+            {
+                "manual_stabbing" : [
+                    
+                ]
+            },
+            {
+                "manual_survival" : [
+                    
+                ]
+            },
+            {
+                "manual_swimming" : [
+                    
+                ]
+            },
+            {
+                "manual_tailor" : [
+                    
+                ]
+            },
+            {
+                "mark19" : [
+                    
+                ]
+            },
+            {
+                "mask_bunker" : [
+                    
+                ]
+            },
+            {
+                "mask_dust" : [
+                    
+                ]
+            },
+            {
+                "mask_filter" : [
+                    
+                ]
+            },
+            {
+                "mask_fsurvivor" : [
+                    
+                ]
+            },
+            {
+                "mask_gas" : [
+                    
+                ]
+            },
+            {
+                "mask_h20survivor" : [
+                    
+                ]
+            },
+            {
+                "mask_hsurvivor" : [
+                    107
+                ]
+            },
+            {
+                "matches" : [
+                    90
+                ]
+            },
+            {
+                "meat" : [
+                    
+                ]
+            },
+            {
+                "meat_cooked" : [
+                    
+                ]
+            },
+            {
+                "meat_tainted" : [
+                    
+                ]
+            },
+            {
+                "mess_kit" : [
+                    
+                ]
+            },
+            {
+                "metal_tank" : [
+                    
+                ]
+            },
+            {
+                "metal_tank_little" : [
+                    
+                ]
+            },
+            {
+                "metal_tank_small" : [
+                    
+                ]
+            },
+            {
+                "meth" : [
+                    
+                ]
+            },
+            {
+                "mil_plate" : [
+                    
+                ]
+            },
+            {
+                "minifridge" : [
+                    
+                ]
+            },
+            {
+                "mirror" : [
+                    
+                ]
+            },
+            {
+                "modern_tanner" : [
+                    
+                ]
+            },
+            {
+                "modularvest" : [
+                    
+                ]
+            },
+            {
+                "mold_plastic" : [
+                    
+                ]
+            },
+            {
+                "mossberg_500" : [
+                    
+                ]
+            },
+            {
+                "motor_small" : [
+                    
+                ]
+            },
+            {
+                "mp3" : [
+                    109
+                ]
+            },
+            {
+                "mre_chicken_box" : [
+                    
+                ]
+            },
+            {
+                "muffler" : [
+                    
+                ]
+            },
+            {
+                "mugwort" : [
+                    
+                ]
+            },
+            {
+                "multitool" : [
+                    89
+                ]
+            },
+            {
+                "music_cd" : [
+                    
+                ]
+            },
+            {
+                "muzzle_brake" : [
+                    
+                ]
+            },
+            {
+                "nail" : [
+                    104
+                ]
+            },
+            {
+                "needle_wood" : [
+                    110
+                ]
+            },
+            {
+                "needlegun" : [
+                    
+                ]
+            },
+            {
+                "newest_newspaper" : [
+                    
+                ]
+            },
+            {
+                "news_regional" : [
+                    
+                ]
+            },
+            {
+                "nic_gum" : [
+                    
+                ]
+            },
+            {
+                "nomex" : [
+                    
+                ]
+            },
+            {
+                "nomex_gloves" : [
+                    
+                ]
+            },
+            {
+                "nomex_hood" : [
+                    
+                ]
+            },
+            {
+                "nomex_socks" : [
+                    
+                ]
+            },
+            {
+                "nomex_suit" : [
+                    
+                ]
+            },
+            {
+                "novel_adventure" : [
+                    
+                ]
+            },
+            {
+                "novel_crime" : [
+                    
+                ]
+            },
+            {
+                "novel_drama" : [
+                    
+                ]
+            },
+            {
+                "novel_erotic" : [
+                    
+                ]
+            },
+            {
+                "novel_fantasy" : [
+                    
+                ]
+            },
+            {
+                "novel_horror" : [
+                    
+                ]
+            },
+            {
+                "novel_mystery" : [
+                    
+                ]
+            },
+            {
+                "novel_pulp" : [
+                    
+                ]
+            },
+            {
+                "novel_road" : [
+                    
+                ]
+            },
+            {
+                "novel_samurai" : [
+                    
+                ]
+            },
+            {
+                "novel_satire" : [
+                    
+                ]
+            },
+            {
+                "novel_scifi" : [
+                    
+                ]
+            },
+            {
+                "novel_sports" : [
+                    
+                ]
+            },
+            {
+                "novel_spy" : [
+                    
+                ]
+            },
+            {
+                "novel_swash" : [
+                    
+                ]
+            },
+            {
+                "novel_thriller" : [
+                    
+                ]
+            },
+            {
+                "novel_tragedy" : [
+                    
+                ]
+            },
+            {
+                "novel_war" : [
+                    
+                ]
+            },
+            {
+                "oatmeal_deluxe" : [
+                    
+                ]
+            },
+            {
+                "oil_lamp" : [
+                    
+                ]
+            },
+            {
+                "oxy_torch" : [
+                    
+                ]
+            },
+            {
+                "oxygen_tank" : [
+                    
+                ]
+            },
+            {
+                "pan" : [
+                    
+                ]
+            },
+            {
+                "pants_cargo" : [
+                    112
+                ]
+            },
+            {
+                "paper" : [
+                    
+                ]
+            },
+            {
+                "pastaextruder" : [
+                    
+                ]
+            },
+            {
+                "pda" : [
+                    
+                ]
+            },
+            {
+                "peach" : [
+                    
+                ]
+            },
+            {
+                "pebble" : [
+                    123
+                ]
+            },
+            {
+                "peephole" : [
+                    
+                ]
+            },
+            {
+                "pet_carrier" : [
+                    
+                ]
+            },
+            {
+                "photo_album" : [
+                    
+                ]
+            },
+            {
+                "pie" : [
+                    
+                ]
+            },
+            {
+                "pie_meat" : [
+                    
+                ]
+            },
+            {
+                "pike" : [
+                    
+                ]
+            },
+            {
+                "pillow" : [
+                    
+                ]
+            },
+            {
+                "pills_sleep" : [
+                    
+                ]
+            },
+            {
+                "pilot_light" : [
+                    
+                ]
+            },
+            {
+                "pipe" : [
+                    
+                ]
+            },
+            {
+                "pipe_glass" : [
+                    
+                ]
+            },
+            {
+                "pistol_grip" : [
+                    
+                ]
+            },
+            {
+                "pistol_scope" : [
+                    
+                ]
+            },
+            {
+                "plant_fibre" : [
+                    
+                ]
+            },
+            {
+                "plant_sac" : [
+                    
+                ]
+            },
+            {
+                "plastic_chunk" : [
+                    
+                ]
+            },
+            {
+                "plays_book" : [
+                    
+                ]
+            },
+            {
+                "poppy_bud" : [
+                    
+                ]
+            },
+            {
+                "poppy_flower" : [
+                    
+                ]
+            },
+            {
+                "portable_game" : [
+                    
+                ]
+            },
+            {
+                "pot" : [
+                    
+                ]
+            },
+            {
+                "potato_raw" : [
+                    95
+                ]
+            },
+            {
+                "power_supply" : [
+                    
+                ]
+            },
+            {
+                "press" : [
+                    
+                ]
+            },
+            {
+                "processor" : [
+                    
+                ]
+            },
+            {
+                "prussian_blue" : [
+                    
+                ]
+            },
+            {
+                "puller" : [
+                    
+                ]
+            },
+            {
+                "radio" : [
+                    
+                ]
+            },
+            {
+                "radio_car" : [
+                    
+                ]
+            },
+            {
+                "radiocontrol" : [
+                    
+                ]
+            },
+            {
+                "rag" : [
+                    65
+                ]
+            },
+            {
+                "ragpouch" : [
+                    
+                ]
+            },
+            {
+                "rail_laser_sight" : [
+                    
+                ]
+            },
+            {
+                "rapier" : [
+                    118
+                ]
+            },
+            {
+                "raw_fur" : [
+                    
+                ]
+            },
+            {
+                "raw_tainted_fur" : [
+                    
+                ]
+            },
+            {
+                "rebar_rifle" : [
+                    
+                ]
+            },
+            {
+                "rebreather" : [
+                    
+                ]
+            },
+            {
+                "rebreather_filter" : [
+                    
+                ]
+            },
+            {
+                "receiver" : [
+                    
+                ]
+            },
+            {
+                "recharge_station" : [
+                    
+                ]
+            },
+            {
+                "recipe_arrows" : [
+                    
+                ]
+            },
+            {
+                "recipe_augs" : [
+                    
+                ]
+            },
+            {
+                "recipe_bows" : [
+                    
+                ]
+            },
+            {
+                "recoil_stock" : [
+                    
+                ]
+            },
+            {
+                "rehydrated_meat" : [
+                    
+                ]
+            },
+            {
+                "reinforced_glass_pane" : [
+                    
+                ]
+            },
+            {
+                "reinforced_glass_sheet" : [
+                    
+                ]
+            },
+            {
+                "reloaded_45_acp" : [
+                    
+                ]
+            },
+            {
+                "remington_870" : [
+                    
+                ]
+            },
+            {
+                "rock" : [
+                    
+                ]
+            },
+            {
+                "rock_quern" : [
+                    
+                ]
+            },
+            {
+                "rollmat" : [
+                    
+                ]
+            },
+            {
+                "rope_30" : [
+                    
+                ]
+            },
+            {
+                "rope_6" : [
+                    
+                ]
+            },
+            {
+                "royal_jelly" : [
+                    
+                ]
+            },
+            {
+                "ruger_1022" : [
+                    
+                ]
+            },
+            {
+                "ruger_mini" : [
+                    
+                ]
+            },
+            {
+                "ruger_redhawk" : [
+                    
+                ]
+            },
+            {
+                "runner_bag" : [
+                    
+                ]
+            },
+            {
+                "sandwich_t" : [
+                    
+                ]
+            },
+            {
+                "saw" : [
+                    
+                ]
+            },
+            {
+                "scar_l" : [
+                    
+                ]
+            },
+            {
+                "scots_cookbook" : [
+                    
+                ]
+            },
+            {
+                "scrap" : [
+                    
+                ]
+            },
+            {
+                "scrap_copper" : [
+                    
+                ]
+            },
+            {
+                "screwdriver" : [
+                    
+                ]
+            },
+            {
+                "screwdriver_set" : [
+                    
+                ]
+            },
+            {
+                "seed_blueberries" : [
+                    
+                ]
+            },
+            {
+                "seed_broccoli" : [
+                    
+                ]
+            },
+            {
+                "seed_cabbage" : [
+                    41
+                ]
+            },
+            {
+                "seed_carrot" : [
+                    
+                ]
+            },
+            {
+                "seed_corn" : [
+                    
+                ]
+            },
+            {
+                "seed_cranberries" : [
+                    92
+                ]
+            },
+            {
+                "seed_potato_raw" : [
+                    
+                ]
+            },
+            {
+                "seed_strawberries" : [
+                    
+                ]
+            },
+            {
+                "seed_sugar_beet" : [
+                    
+                ]
+            },
+            {
+                "seed_tomato" : [
+                    
+                ]
+            },
+            {
+                "seed_weed" : [
+                    
+                ]
+            },
+            {
+                "seed_wheat" : [
+                    
+                ]
+            },
+            {
+                "sewing_kit" : [
+                    
+                ]
+            },
+            {
+                "sf_watch" : [
+                    
+                ]
+            },
+            {
+                "sheet" : [
+                    
+                ]
+            },
+            {
+                "sheet_metal" : [
+                    
+                ]
+            },
+            {
+                "sheet_metal_lit" : [
+                    
+                ]
+            },
+            {
+                "shot_00" : [
+                    
+                ]
+            },
+            {
+                "shot_bird" : [
+                    
+                ]
+            },
+            {
+                "shot_hull" : [
+                    
+                ]
+            },
+            {
+                "shot_slug" : [
+                    
+                ]
+            },
+            {
+                "shotgun_primer" : [
+                    
+                ]
+            },
+            {
+                "shovel" : [
+                    
+                ]
+            },
+            {
+                "sinew" : [
+                    70
+                ]
+            },
+            {
+                "sleeping_bag" : [
+                    
+                ]
+            },
+            {
+                "sleeveless_trenchcoat_leather" : [
+                    
+                ]
+            },
+            {
+                "slime_scrap" : [
+                    
+                ]
+            },
+            {
+                "slingshot" : [
+                    
+                ]
+            },
+            {
+                "small_lcd_screen" : [
+                    
+                ]
+            },
+            {
+                "small_stomach_boiled" : [
+                    
+                ]
+            },
+            {
+                "smores" : [
+                    
+                ]
+            },
+            {
+                "smoxygen_tank" : [
+                    
+                ]
+            },
+            {
+                "smrifle_primer" : [
+                    
+                ]
+            },
+            {
+                "sneakers" : [
+                    
+                ]
+            },
+            {
+                "soap" : [
+                    
+                ]
+            },
+            {
+                "socks" : [
+                    103
+                ]
+            },
+            {
+                "solar_cell" : [
+                    
+                ]
+            },
+            {
+                "solar_panel" : [
+                    
+                ]
+            },
+            {
+                "solar_panel_v2" : [
+                    
+                ]
+            },
+            {
+                "solder_wire" : [
+                    
+                ]
+            },
+            {
+                "soldering_iron" : [
+                    115
+                ]
+            },
+            {
+                "spaghetti_cooked" : [
+                    
+                ]
+            },
+            {
+                "spear_knife" : [
+                    
+                ]
+            },
+            {
+                "spear_steel" : [
+                    
+                ]
+            },
+            {
+                "spike" : [
+                    
+                ]
+            },
+            {
+                "splinter" : [
+                    
+                ]
+            },
+            {
+                "spork" : [
+                    
+                ]
+            },
+            {
+                "spray_can" : [
+                    
+                ]
+            },
+            {
+                "spring" : [
+                    
+                ]
+            },
+            {
+                "spring_plate" : [
+                    
+                ]
+            },
+            {
+                "steel_chunk" : [
+                    
+                ]
+            },
+            {
+                "steel_lump" : [
+                    
+                ]
+            },
+            {
+                "steel_plate" : [
+                    
+                ]
+            },
+            {
+                "steel_rail" : [
+                    
+                ]
+            },
+            {
+                "stick" : [
+                    
+                ]
+            },
+            {
+                "stockings" : [
+                    
+                ]
+            },
+            {
+                "stomach" : [
+                    
+                ]
+            },
+            {
+                "stomach_large" : [
+                    
+                ]
+            },
+            {
+                "storage_battery" : [
+                    
+                ]
+            },
+            {
+                "straw_pile" : [
+                    
+                ]
+            },
+            {
+                "strawberries" : [
+                    
+                ]
+            },
+            {
+                "string_36" : [
+                    
+                ]
+            },
+            {
+                "string_6" : [
+                    
+                ]
+            },
+            {
+                "sugar_beet" : [
+                    
+                ]
+            },
+            {
+                "sunglasses" : [
+                    
+                ]
+            },
+            {
+                "superglue" : [
+                    
+                ]
+            },
+            {
+                "suppressor" : [
+                    
+                ]
+            },
+            {
+                "survival_book" : [
+                    
+                ]
+            },
+            {
+                "survivor_belt" : [
+                    119
+                ]
+            },
+            {
+                "survivor_belt_notools" : [
+                    
+                ]
+            },
+            {
+                "survivor_pack" : [
+                    72
+                ]
+            },
+            {
+                "survivor_rucksack" : [
+                    101
+                ]
+            },
+            {
+                "survivor_scope" : [
+                    87
+                ]
+            },
+            {
+                "sw629" : [
+                    
+                ]
+            },
+            {
+                "sw_22" : [
+                    
+                ]
+            },
+            {
+                "swage" : [
+                    
+                ]
+            },
+            {
+                "sweater" : [
+                    
+                ]
+            },
+            {
+                "swim_fins" : [
+                    
+                ]
+            },
+            {
+                "syringe" : [
+                    
+                ]
+            },
+            {
+                "tall_tales" : [
+                    
+                ]
+            },
+            {
+                "tallow" : [
+                    
+                ]
+            },
+            {
+                "tanning_pelt" : [
+                    
+                ]
+            },
+            {
+                "tazer" : [
+                    
+                ]
+            },
+            {
+                "teapot" : [
+                    
+                ]
+            },
+            {
+                "tec9" : [
+                    
+                ]
+            },
+            {
+                "tent_kit" : [
+                    
+                ]
+            },
+            {
+                "textbook_armeast" : [
+                    
+                ]
+            },
+            {
+                "textbook_armwest" : [
+                    
+                ]
+            },
+            {
+                "textbook_biodiesel" : [
+                    
+                ]
+            },
+            {
+                "textbook_business" : [
+                    
+                ]
+            },
+            {
+                "textbook_chemistry" : [
+                    
+                ]
+            },
+            {
+                "textbook_electronics" : [
+                    
+                ]
+            },
+            {
+                "textbook_fabrication" : [
+                    
+                ]
+            },
+            {
+                "textbook_firstaid" : [
+                    
+                ]
+            },
+            {
+                "textbook_gaswarfare" : [
+                    
+                ]
+            },
+            {
+                "textbook_mechanics" : [
+                    
+                ]
+            },
+            {
+                "textbook_robots" : [
+                    
+                ]
+            },
+            {
+                "textbook_speech" : [
+                    
+                ]
+            },
+            {
+                "textbook_survival" : [
+                    
+                ]
+            },
+            {
+                "textbook_tailor" : [
+                    
+                ]
+            },
+            {
+                "textbook_weapeast" : [
+                    
+                ]
+            },
+            {
+                "textbook_weapwest" : [
+                    
+                ]
+            },
+            {
+                "thread" : [
+                    98
+                ]
+            },
+            {
+                "tihar" : [
+                    125
+                ]
+            },
+            {
+                "tomato" : [
+                    
+                ]
+            },
+            {
+                "tongs" : [
+                    
+                ]
+            },
+            {
+                "tool_belt" : [
+                    
+                ]
+            },
+            {
+                "toolbox" : [
+                    
+                ]
+            },
+            {
+                "towel" : [
+                    
+                ]
+            },
+            {
+                "tread2" : [
+                    
+                ]
+            },
+            {
+                "trimmer_off" : [
+                    
+                ]
+            },
+            {
+                "tuned_mechanism" : [
+                    
+                ]
+            },
+            {
+                "turret_engine" : [
+                    
+                ]
+            },
+            {
+                "under_armor" : [
+                    
+                ]
+            },
+            {
+                "union_suit" : [
+                    
+                ]
+            },
+            {
+                "v6_combustion" : [
+                    
+                ]
+            },
+            {
+                "vaccine_shot" : [
+                    
+                ]
+            },
+            {
+                "vambrace_larmor" : [
+                    
+                ]
+            },
+            {
+                "veggy" : [
+                    
+                ]
+            },
+            {
+                "veggy_wild" : [
+                    
+                ]
+            },
+            {
+                "veggy_wild_cooked" : [
+                    
+                ]
+            },
+            {
+                "vehicle_controls" : [
+                    
+                ]
+            },
+            {
+                "vest" : [
+                    
+                ]
+            },
+            {
+                "vitamins" : [
+                    74
+                ]
+            },
+            {
+                "waffleiron" : [
+                    
+                ]
+            },
+            {
+                "water_faucet" : [
+                    
+                ]
+            },
+            {
+                "water_purifier" : [
+                    
+                ]
+            },
+            {
+                "waterskin" : [
+                    99,
+                    105
+                ]
+            },
+            {
+                "wearable_light" : [
+                    
+                ]
+            },
+            {
+                "weed" : [
+                    
+                ]
+            },
+            {
+                "welder" : [
+                    
+                ]
+            },
+            {
+                "welding_book" : [
+                    
+                ]
+            },
+            {
+                "wheat" : [
+                    
+                ]
+            },
+            {
+                "wheel" : [
+                    
+                ]
+            },
+            {
+                "wild_herbs" : [
+                    
+                ]
+            },
+            {
+                "winter_gloves_army" : [
+                    
+                ]
+            },
+            {
+                "wire" : [
+                    
+                ]
+            },
+            {
+                "wire_barbed" : [
+                    
+                ]
+            },
+            {
+                "withered" : [
+                    
+                ]
+            },
+            {
+                "wrapped_rad_badge" : [
+                    106
+                ]
+            },
+            {
+                "wrapper" : [
+                    
+                ]
+            },
+            {
+                "wrench" : [
+                    
+                ]
+            },
+            {
+                "wristwatch" : [
+                    100
+                ]
+            },
+            {
+                "xlframe" : [
+                    
+                ]
+            }
+        ]
+    },
+    "player_messages" : {
+        "messages" : [
+            {
+                "turn" : 1107088,
+                "message" : "From the west you hear whump!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107089,
+                "message" : "Moving past this empty window is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107122,
+                "message" : "Moving past this counter is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107156,
+                "message" : "Moving past this counter is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1107160,
+                "message" : "Moving past this counter is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107160,
+                "message" : "You see here 1 paint brush.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107165,
+                "message" : "Moving past this counter is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1107165,
+                "message" : "You see here 100 white paint.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107173,
+                "message" : "Moving past this counter is slow!",
+                "count" : 4,
+                "type" : 3
+            },
+            {
+                "turn" : 1107173,
+                "message" : "You see here 100 yellow paint.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107179,
+                "message" : "Moving past this counter is slow!",
+                "count" : 3,
+                "type" : 3
+            },
+            {
+                "turn" : 1107179,
+                "message" : "You see here 100 white paint.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107198,
+                "message" : "From the northwest you hear whirrr!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107203,
+                "message" : "From the northwest you hear whirrr!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107204,
+                "message" : "Spotted zombie--safe mode is on! (Press ! to turn it off or press ' to ignore monster.)",
+                "count" : 4,
+                "type" : 3
+            },
+            {
+                "turn" : 1107204,
+                "message" : "Safe mode OFF! (Auto safe mode still enabled!)",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107216,
+                "message" : "From the northwest you hear whirrr!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107222,
+                "message" : "You hit the zombie dog for 9 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107222,
+                "message" : "You hit the zombie dog for 13 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107223,
+                "message" : "You hit the zombie dog for 15 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107223,
+                "message" : "The zombie dog dies!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107228,
+                "message" : "You see here 1 zombie dog corpse.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107249,
+                "message" : "You harvest some salvageable bones!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107249,
+                "message" : "You harvest some meat.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107249,
+                "message" : "You finish butchering the zombie dog.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107249,
+                "message" : "Safe mode ON!",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107249,
+                "message" : "Safe mode OFF! (Auto safe mode still enabled!)",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107249,
+                "message" : "Safe mode ON!",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107249,
+                "message" : "You insert a cartridge into your pneumatic assault rifle++.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107249,
+                "message" : "Ignoring enemy!",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107250,
+                "message" : "You insert a cartridge into your pneumatic assault rifle++.",
+                "count" : 2,
+                "type" : 5
+            },
+            {
+                "turn" : 1107250,
+                "message" : "Your pneumatic assault rifle++ is fully loaded!",
+                "count" : 4,
+                "type" : 4
+            },
+            {
+                "turn" : 1107250,
+                "message" : "There are no corpses here to butcher.",
+                "count" : 2,
+                "type" : 4
+            },
+            {
+                "turn" : 1107264,
+                "message" : "Spotted zombie--safe mode is on! (Press ! to turn it off or press ' to ignore monster.)",
+                "count" : 19,
+                "type" : 3
+            },
+            {
+                "turn" : 1107264,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107264,
+                "message" : "You hit the zombie for 18 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107265,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107265,
+                "message" : "You hit the zombie for 22 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107265,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107265,
+                "message" : "You hit the zombie for 18 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107266,
+                "message" : "You hit the zombie for 9 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107266,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107266,
+                "message" : "You hit the zombie for 18 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107266,
+                "message" : "The zombie dies!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107267,
+                "message" : "You insert a cartridge into your pneumatic assault rifle++.",
+                "count" : 2,
+                "type" : 5
+            },
+            {
+                "turn" : 1107267,
+                "message" : "Spotted shocker zombie--safe mode is on! (Press ! to turn it off or press ' to ignore monster.)",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107268,
+                "message" : "You insert a cartridge into your pneumatic assault rifle++.",
+                "count" : 3,
+                "type" : 5
+            },
+            {
+                "turn" : 1107268,
+                "message" : "Ignoring enemy!",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107273,
+                "message" : "You see here 1 |\\ checkered pants, 1 \\. sweater (fits) and 4 more items.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107314,
+                "message" : "You harvest some salvageable bones!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107314,
+                "message" : "You harvest some meat.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107314,
+                "message" : "You finish butchering the zombie.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107374,
+                "message" : "You see here 1 rock.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107427,
+                "message" : "You see here 1 rock.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107429,
+                "message" : "You pick up: 1 rock (6) [h]",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107478,
+                "message" : "Moving past this shrub is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107560,
+                "message" : "Spotted zombie cop--safe mode is on! (Press ! to turn it off or press ' to ignore monster.)",
+                "count" : 13,
+                "type" : 3
+            },
+            {
+                "turn" : 1107560,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107560,
+                "message" : "You hit the zombie cop for 12 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "You hit the zombie cop for 10 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "You hit the zombie cop for 14 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "You hit the zombie cop for 12 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "You hit the zombie cop for 11 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "You hit the zombie cop for 5 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "Unknown command: '\n'",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107561,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107561,
+                "message" : "You hit the zombie cop for 12 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107562,
+                "message" : "You insert a cartridge into your pneumatic assault rifle++.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107562,
+                "message" : "Good hit!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107562,
+                "message" : "You hit the zombie cop for 14 damage.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107562,
+                "message" : "The zombie cop dies!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107569,
+                "message" : "You insert a cartridge into your pneumatic assault rifle++.",
+                "count" : 7,
+                "type" : 5
+            },
+            {
+                "turn" : 1107569,
+                "message" : "Your pneumatic assault rifle++ is fully loaded!",
+                "count" : 2,
+                "type" : 4
+            },
+            {
+                "turn" : 1107569,
+                "message" : "You see here 1 |\\ pair of boots (fits), 1 \\. light jacket and 6 more items.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107610,
+                "message" : "You harvest some salvageable bones!",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107610,
+                "message" : "You harvest some meat.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107610,
+                "message" : "You finish butchering the zombie cop.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107610,
+                "message" : "Never mind.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107611,
+                "message" : "You see here 1 rock.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107612,
+                "message" : "You pick up: 1 rock (7) [h]",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107631,
+                "message" : "Moving past this picket fence is slow!",
+                "count" : 5,
+                "type" : 3
+            },
+            {
+                "turn" : 1107640,
+                "message" : "Moving past this picket fence is slow!",
+                "count" : 4,
+                "type" : 3
+            },
+            {
+                "turn" : 1107649,
+                "message" : "Moving past this picket fence is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107667,
+                "message" : "You see here 1 rock.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107668,
+                "message" : "You pick up: 1 rock (8) [h]",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107695,
+                "message" : "You see here 1 cash card (250) and many more items.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107699,
+                "message" : "You see here 1 cash card (250) and many more items.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107705,
+                "message" : "You see here 1 rock.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107706,
+                "message" : "You pick up: 1 rock (9) [h]",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107741,
+                "message" : "You see here 1 rock.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107742,
+                "message" : "You pick up: 1 rock (10) [h]",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107787,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1107896,
+                "message" : "You craft pebble from memory.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107896,
+                "message" : "{ - pebble",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107898,
+                "message" : "You put your rocks in the Light Tank's cargo space.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107899,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107899,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107899,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107901,
+                "message" : "Aisle lights turned off",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107904,
+                "message" : "You eat your meat soup.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107907,
+                "message" : "You drink your clean water.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107912,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107912,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107912,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107914,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1107914,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107914,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107918,
+                "message" : "Saving game, this may take a while",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1107918,
+                "message" : "This is a comfortable place to sleep.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1107918,
+                "message" : "You lie down to go to sleep...",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107920,
+                "message" : "You fall asleep.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1107920,
+                "message" : "You nestle your pile of clothes for warmth.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1108647,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1108702,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1108858,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1108892,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1108899,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1108943,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109001,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109018,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109073,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109124,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 2,
+                "type" : 5
+            },
+            {
+                "turn" : 1109180,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109214,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109235,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109304,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109415,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109496,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109519,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109546,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109700,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109719,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109866,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109916,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109922,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1109926,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112650,
+                "message" : "You feel well rested.",
+                "count" : 1,
+                "type" : 0
+            },
+            {
+                "turn" : 1112700,
+                "message" : "You wake up.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112701,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112701,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112703,
+                "message" : "You open the Light Tank's door.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112704,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112707,
+                "message" : "You open the Light Tank's heavy duty hatch.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112708,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112712,
+                "message" : "Moving past this steel ram is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112721,
+                "message" : "Moving past this steel ram is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112724,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112728,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112732,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112732,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112735,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112735,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112735,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112737,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112737,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112737,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112741,
+                "message" : "You take control of the Light Tank.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112743,
+                "message" : "The Light Tank's engines start up.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112744,
+                "message" : "You regain control of the Light Tank.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112749,
+                "message" : "Whirrr!",
+                "count" : 2,
+                "type" : 5
+            },
+            {
+                "turn" : 1112751,
+                "message" : "Your Light Tank's military composite armor rams into a the shrub.",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112752,
+                "message" : "From the northwest you hear crunch.",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112762,
+                "message" : "Whirrr!",
+                "count" : 3,
+                "type" : 5
+            },
+            {
+                "turn" : 1112770,
+                "message" : "Whirrr!",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112781,
+                "message" : "Your Light Tank's military composite armor rams into a the strawberry bush.",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112782,
+                "message" : "From the north you hear brush.",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1112782,
+                "message" : "From the north you hear crunch.",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112797,
+                "message" : "Headlights turned on",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112797,
+                "message" : "Headlights turned off",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112798,
+                "message" : "You turn the engine off and let go of the controls.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112798,
+                "message" : "You eat your meat soup.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112800,
+                "message" : "You can't finish it all!",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112800,
+                "message" : "You eat your meat soup.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112805,
+                "message" : "You drink your clean water.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112810,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1112810,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112810,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112818,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1112832,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1112838,
+                "message" : "You can't construct while in a vehicle.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112838,
+                "message" : "You don't have that item.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112838,
+                "message" : "You can't see to craft!",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112838,
+                "message" : "Aisle lights turned on",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112918,
+                "message" : "You craft extra-light frame from memory.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112918,
+                "message" : "h - extra-light frame",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1112918,
+                "message" : "Dome lights turned on",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112918,
+                "message" : "Dome lights turned off",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112918,
+                "message" : "Aisle lights turned off",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1112921,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1113070,
+                "message" : "Unknown command: '\u001B'",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1113123,
+                "message" : "You grab the Clutter.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113135,
+                "message" : "You release the Clutter.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113139,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1113144,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1113151,
+                "message" : "Unknown command: '\u001B'",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1113155,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1113162,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1113162,
+                "message" : "There are vehicle controls here.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113162,
+                "message" : "Press b to drive.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1113170,
+                "message" : "Moving past this heavy duty frame is slow!",
+                "count" : 2,
+                "type" : 3
+            },
+            {
+                "turn" : 1113180,
+                "message" : "Spotted black rat--safe mode is on! (Press ! to turn it off or press ' to ignore monster.)",
+                "count" : 3,
+                "type" : 3
+            },
+            {
+                "turn" : 1113180,
+                "message" : "Ignoring enemy!",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1113209,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113240,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113331,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113393,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113418,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113479,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113520,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113593,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113670,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113693,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113707,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113757,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113793,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113920,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113931,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113937,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113993,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1113999,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114074,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114079,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114094,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 2,
+                "type" : 5
+            },
+            {
+                "turn" : 1114107,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114158,
+                "message" : "You hear a distant rumble of thunder.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114193,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114393,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114633,
+                "message" : "You craft wooden frame from memory.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114633,
+                "message" : "q - wooden frame",
+                "count" : 2,
+                "type" : 4
+            },
+            {
+                "turn" : 1114633,
+                "message" : "There's no room in your inventory for the wooden frame, so you drop it.",
+                "count" : 2,
+                "type" : 5
+            },
+            {
+                "turn" : 1114634,
+                "message" : "It takes you a very long time to wield your wooden frame.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1114634,
+                "message" : "Wielding B - wooden frame",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1114651,
+                "message" : "Moving past this open window with curtains is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1115004,
+                "message" : "Moving past this open window with curtains is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1115008,
+                "message" : "You see here 1 wooden frame.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115210,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115410,
+                "message" : "You disassemble the bench.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115410,
+                "message" : "You see here 1 wooden frame.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115411,
+                "message" : "You pick up: 1 wooden frame [q]",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115472,
+                "message" : "This task is too simple to train your fabrication beyond 10.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1115472,
+                "message" : "You craft wooden frame from memory.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115472,
+                "message" : "q - wooden frame",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1115532,
+                "message" : "You craft wooden frame from memory.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115532,
+                "message" : "There's no room in your inventory for the wooden frame, so you drop it.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115532,
+                "message" : "It takes you a very long time to wield your wooden frame.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115532,
+                "message" : "Wielding B - wooden frame",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1115548,
+                "message" : "Moving past this open window with curtains is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1115664,
+                "message" : "This task is too simple to train your construction beyond 3.",
+                "count" : 1,
+                "type" : 4
+            },
+            {
+                "turn" : 1115664,
+                "message" : "Moving past this wooden frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1115670,
+                "message" : "Moving past this wooden frame is slow!",
+                "count" : 1,
+                "type" : 3
+            },
+            {
+                "turn" : 1115675,
+                "message" : "You grab the SimpleBox4.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115676,
+                "message" : "You release the SimpleBox4.",
+                "count" : 1,
+                "type" : 5
+            },
+            {
+                "turn" : 1115785,
+                "message" : "This task is too simple to train your construction beyond 3.",
+                "count" : 1,
+                "type" : 4
+            }
+        ],
+        "curmes" : 1115798
+    }
+}

@@ -89,7 +89,7 @@ class CataclysmWorld
         map_json = JSON.load(opened_map_file)
         # grab + set positional data
         target_pos = [vehicle["pos_x"],vehicle["pos_y"]]
-        #source_vehicle.set_pos(target_pos)
+        source_vehicle.set_pos(target_pos)
         # replace vehicle
         map_json[map_index]["vehicles"][v_index] = source_vehicle.to_h
         # save data out in entirety

@@ -1,0 +1,128 @@
+[
+    {
+        "info" : "A scaling factor that determines density of dynamic NPC spawns.",
+        "default" : "Default: 1.00 - Min: 0.00, Max: 100.00",
+        "name" : "NPC_DENSITY",
+        "value" : "1.00"
+    },
+    {
+        "info" : "A number determining how large cities are. 0 disables cities and roads.",
+        "default" : "Default: 4 - Min: 0, Max: 16",
+        "name" : "CITY_SIZE",
+        "value" : "4"
+    },
+    {
+        "info" : "A scaling factor that determines the time between monster upgrades. A higher number means slower evolution. Set to 0.00 to turn off monster upgrades.",
+        "default" : "Default: 4.00 - Min: 0.00, Max: 100.00",
+        "name" : "MONSTER_UPGRADE_FACTOR",
+        "value" : "8.00"
+    },
+    {
+        "info" : "Emulation of zombie hordes. Zombie spawn points wander around cities and may go to noise. Must reset world directory after changing for it to take effect.",
+        "default" : "Default: False",
+        "name" : "WANDER_SPAWNS",
+        "value" : "false"
+    },
+    {
+        "info" : "A number determining how far apart cities are. Warning, small numbers lead to very slow mapgen.",
+        "default" : "Default: 4 - Min: 0, Max: 8",
+        "name" : "CITY_SPACING",
+        "value" : "4"
+    },
+    {
+        "info" : "Initial starting time of day on character generation.",
+        "default" : "Default: 8 - Min: 0, Max: 23",
+        "name" : "INITIAL_TIME",
+        "value" : "8"
+    },
+    {
+        "info" : "A scaling factor that determines density of monster spawns.",
+        "default" : "Default: 1.00 - Min: 0.00, Max: 50.00",
+        "name" : "SPAWN_DENSITY",
+        "value" : "1.0"
+    },
+    {
+        "info" : "Spawn zombies at game start instead of during game. Must reset world directory after changing for it to take effect.",
+        "default" : "Default: True",
+        "name" : "STATIC_SPAWN",
+        "value" : "true"
+    },
+    {
+        "info" : "Keep the initial season for ever.",
+        "default" : "Default: False",
+        "name" : "ETERNAL_SEASON",
+        "value" : "false"
+    },
+    {
+        "info" : "(WIP feature) Determines terrain, shops, plants, and more.",
+        "default" : "Default: default - Values: default",
+        "name" : "DEFAULT_REGION",
+        "value" : "default"
+    },
+    {
+        "info" : "If true, experimental z-level maps will be enabled. This feature is not finished yet and turning it on will only slow the game down.",
+        "default" : "Default: False",
+        "name" : "ZLEVELS",
+        "value" : "false"
+    },
+    {
+        "info" : "If true, the game will randomly spawn NPC during gameplay.",
+        "default" : "Default: False",
+        "name" : "RANDOM_NPC",
+        "value" : "false"
+    },
+    {
+        "info" : "Season length, in days.",
+        "default" : "Default: 14 - Min: 14, Max: 127",
+        "name" : "SEASON_LENGTH",
+        "value" : "30"
+    },
+    {
+        "info" : "Season the player starts in. Options other than the default delay spawn of the character, so food decay and monster spawns will have advanced.",
+        "default" : "Default: spring - Values: spring, summer, autumn, winter",
+        "name" : "INITIAL_SEASON",
+        "value" : "spring"
+    },
+    {
+        "info" : "If true, the game will spawn static NPC at the start of the game, requires world reset.",
+        "default" : "Default: False",
+        "name" : "STATIC_NPC",
+        "value" : "true"
+    },
+    {
+        "info" : "If true, radiation causes the player to mutate.",
+        "default" : "Default: True",
+        "name" : "RAD_MUTATION",
+        "value" : "true"
+    },
+    {
+        "info" : "Multiplies the speed of construction by the given percentage. '0' automatically scales construction to match the world's season length.",
+        "default" : "Default: 100 - Min: 0, Max: 1000",
+        "name" : "CONSTRUCTION_SCALING",
+        "value" : "100"
+    },
+    {
+        "info" : "Delete the world when the last active character dies.",
+        "default" : "Default: no - Values: no, yes, query",
+        "name" : "DELETE_WORLD",
+        "value" : "no"
+    },
+    {
+        "info" : "Only spawn classic zombies and natural wildlife. Requires a reset of save folder to take effect. This disables certain buildings.",
+        "default" : "Default: False",
+        "name" : "CLASSIC_ZOMBIES",
+        "value" : "false"
+    },
+    {
+        "info" : "If true, spawn zombies at shelters. Makes the starting game a lot harder.",
+        "default" : "Default: False",
+        "name" : "BLACK_ROAD",
+        "value" : "false"
+    },
+    {
+        "info" : "A scaling factor that determines density of item spawns.",
+        "default" : "Default: 1.00 - Min: 0.01, Max: 10.00",
+        "name" : "ITEM_SPAWNRATE",
+        "value" : "1.00"
+    }
+]
